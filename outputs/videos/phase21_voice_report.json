@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "provider": "edge_neural_tts",
+  "voice_model": "en-US-ChristopherNeural",
+  "full_company_name_pronunciation": "CrowdWisdom... Trading (complete, with natural pause)",
+  "cta_phrases_audited": {
+    "phrase_1": "CrowdWisdom... Trading.",
+    "phrase_2": "See the signal inside the noise.",
+    "phrase_3": "Get access at crowdwisdomtrading.com."
+  },
+  "speech_endpoint_verification": {
+    "last_spoken_sample_sec": 47.41,
+    "video_duration_sec": 48.5,
+    "breathing_room_tail_sec": 1.09,
+    "truncation_detected": false,
+    "safety_margin_compliant": true
+  },
+  "audio_chain": [
+    "highpass=f=80",
+    "equalizer=f=250:t=q:w=1.2:g=-1.5",
+    "equalizer=f=3000:t=q:w=1.5:g=2.0",
+    "loudnorm=I=-16.0:TP=-1.0:LRA=7.0"
+  ],
+  "loudness_target_lufs": -16.0,
+  "true_peak_dbtp": -1.0
+}

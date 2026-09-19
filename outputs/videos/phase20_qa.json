@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "phase": 20,
+  "ad_title": "The Signal Inside The Noise: Polished Cinematic Vox Explainer",
+  "technical_qa": {
+    "duration_seconds": 46.49,
+    "target_duration_window": "42.0s - 48.0s",
+    "duration_compliant": true,
+    "resolution": "1080x1920",
+    "resolution_compliant": true,
+    "framerate": 30.0,
+    "video_codec": "H.264 (libx264, yuv420p)",
+    "audio_codec": "AAC stereo 44.1kHz 192kbps",
+    "audio_present": true,
+    "mastering_loudness": "-16.0 LUFS integrated, -1.0 dBTP true peak",
+    "speech_overlap": false,
+    "audio_clipping": false
+  },
+  "density_qa": {
+    "ambient_ticker_tape": true,
+    "editorial_annotations": [
+      "FIG. 01",
+      "FIG. 02",
+      "FIG. 03",
+      "FIG. 04",
+      "FIG. 05",
+      "FIG. 06"
+    ],
+    "notification_alert_bubbles": true,
+    "background_micro_charts": true,
+    "integrated_editorial_captions": 16,
+    "empty_archival_space_resolved": true
+  },
+  "production_metadata": {
+    "output_file": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\final_cinematic_ad_phase20.mp4",
+    "file_size_bytes": 4700220,
+    "render_duration_seconds": 34.22,
+    "generated_at": "2026-09-20 02:22:08"
+  }
+}

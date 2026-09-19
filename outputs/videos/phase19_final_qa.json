@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "phase": 19,
+  "ad_title": "The Signal Inside The Noise: Full Cinematic Vox Explainer",
+  "creative_direction": "Cinematic Vox-Style Editorial Motion Graphics (Verified Extension of vox_motion_proof_v2.mp4)",
+  "technical_qa": {
+    "duration_seconds": 46.49,
+    "target_duration_window": "42.0s - 48.0s",
+    "duration_compliant": true,
+    "resolution": "1080x1920",
+    "resolution_compliant": true,
+    "aspect_ratio": "9:16 portrait",
+    "framerate": 30.0,
+    "video_codec": "H.264 (libx264, yuv420p)",
+    "audio_codec": "AAC stereo 44.1kHz 192kbps",
+    "audio_present": true,
+    "mastering_loudness": "-16.0 LUFS integrated, -1.0 dBTP true peak",
+    "speech_overlap": false,
+    "audio_clipping": false
+  },
+  "content_qa": {
+    "brand": "CrowdWisdom Trading",
+    "cta": "crowdwisdomtrading.com",
+    "verified_statistics": {
+      "trader_inputs": 1482930,
+      "directional_accuracy_pct": 68.4,
+      "early_warning_lead_hours": 14.6,
+      "verified_tickers": 428,
+      "narrative_tension_device": "2:17 AM"
+    },
+    "unsupported_claims": false,
+    "forbidden_buzzwords_detected": false
+  },
+  "creative_qa": {
+    "style_system": "Company Art Direction Master Sheet (#C9BB9C, Halftone B&W Cutouts, Rough Keylines, Offset Red Strokes, Archival Cartography Stage)",
+    "motion_engine": "tools/vox_motion_engine.py (Pure 2.5D Animated Composition)",
+    "stock_footage_used_seconds": 0.0,
+    "static_powerpoint_cards": 0,
+    "visual_scenes_count": 8,
+    "visual_event_frequency": "Every 0.5s - 2.0s",
+    "motion_transformations_verified": [
+      "CUTOUT_REVEAL with spring overshoot",
+      "DUPLICATE into 4 satellite trader nodes",
+      "3D TUMBLE of cascading financial newspaper fragments",
+      "VACUUM COLLAPSE into dead-center truth singularity",
+      "UNDERLINE SWIPE across typography baseline",
+      "EXPONENTIAL DATA COUNTER (1 -> 1,482,930)",
+      "ACCURACY COMPARISON BAR SWEEP (68.4% vs 49.1%)",
+      "TIMELINE 24-HOUR RULER with 14.6h EARLY WARNING PIN",
+      "RADAR RANGE SCAN with directional accumulation blip",
+      "MASTER BRAND RESOLUTION with triple verified seal"
+    ]
+  },
+  "production_metadata": {
+    "output_file": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\final_cinematic_ad_phase19.mp4",
+    "file_size_bytes": 2998171,
+    "render_duration_seconds": 26.79,
+    "generated_at": "2026-09-20 01:55:59"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "style_qa_status": "PASSED",
+  "authoritative_reference": "assets/style_reference/company_art_direction.png",
+  "palette_compliance": {
+    "archival_tan_#C9BB9C": true,
+    "ink_black_#1A1A1A": true,
+    "halftone_gray_#8C8C8C": true,
+    "hot_red_#D62E1F": true,
+    "mustard_#D9A441": true,
+    "zero_neon_or_gradients": true
+  },
+  "construction_logic_verified": {
+    "halftone_texture_present": true,
+    "rough_white_keyline_present": true,
+    "offset_hot_red_stroke_present": true,
+    "paper_drop_shadows_present": true
+  },
+  "physical_depth_verified": {
+    "background_plane": "faded antique map / aged newspaper columns",
+    "midground_plane": "halftone cutouts with offset red strokes",
+    "foreground_plane": "giant stat cards, red pins, red underlines",
+    "single_committed_camera_move_per_clip": true
+  },
+  "reusable_motion_primitives_executed": [
+    "PAPER_POP (spring up with overshoot)",
+    "TICK_UP (verified factual numbers only)",
+    "UNDERLINE (Hot Red marker swipe)",
+    "ALERT_WASH (executed exactly once in Beat 6)",
+    "THREAD_PULL (red connector lines)",
+    "STAMP (paper stamp snap)",
+    "COUNTER_SLAM (focus snap)"
+  ],
+  "approved_visible_numbers": [
+    "2:17 AM (Beat 1)",
+    "1,482,930 TRADER INPUTS (Beat 4)",
+    "68.4% DIRECTIONAL ACCURACY (Beat 5)",
+    "14.6 HOURS EARLY-WARNING LEAD (Beat 5)"
+  ]
+}

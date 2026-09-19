@@ -1,0 +1,147 @@
+{
+  "audit_timestamp": "2026-09-19T19:17:09.280066+00:00",
+  "phase": "Phase 13 \u2014 Zero-Cost AI Video Generation Evaluation",
+  "hardware_envelope": {
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "vram_mb": 8192,
+    "vram_gb": 8.0,
+    "system_ram_gb": 16.0,
+    "available_free_ram_gb": 11.2,
+    "os": "Windows 11",
+    "python_version": "3.10.11",
+    "local_torch_installed": false
+  },
+  "hosted_cloud_backends_evaluated": {
+    "fal_ai": {
+      "models": [
+        "kling-video",
+        "minimax/hailuo-03",
+        "veo2",
+        "seedance-video",
+        "gemini-omni"
+      ],
+      "free_tier": false,
+      "current_status": "HTTP 403 Forbidden: User is locked. Reason: Exhausted balance.",
+      "zero_cost_viable": false
+    },
+    "runway": {
+      "models": [
+        "gen4_turbo",
+        "gen4.5"
+      ],
+      "free_tier": false,
+      "pricing": "/month subscription",
+      "zero_cost_viable": false
+    },
+    "kling_official": {
+      "models": [
+        "kling-v1",
+        "kling-v1.5"
+      ],
+      "free_tier": false,
+      "pricing": "Pay-as-you-go credits required",
+      "zero_cost_viable": false
+    },
+    "volcengine_ark": {
+      "models": [
+        "seedance-2.0",
+        "seedance-2.5"
+      ],
+      "free_tier": false,
+      "pricing": "Pay-as-you-go credits required",
+      "zero_cost_viable": false
+    },
+    "minimax_direct": {
+      "models": [
+        "MiniMax-H3"
+      ],
+      "free_tier": false,
+      "pricing": "Pay-as-you-go credits required",
+      "zero_cost_viable": false
+    },
+    "google_genai": {
+      "models": [
+        "veo",
+        "gemini_omni"
+      ],
+      "free_tier": false,
+      "pricing": "Paid Google Cloud Vertex AI credits required",
+      "zero_cost_viable": false
+    },
+    "openrouter": {
+      "models": [],
+      "free_tier": false,
+      "status": "LLM / text & multimodal vision understanding only; zero video generation endpoints",
+      "zero_cost_viable": false
+    },
+    "pexels_pixabay": {
+      "models": [
+        "stock_video"
+      ],
+      "free_tier": true,
+      "status": "Stock footage only; NOT AI-generated video (violates prompt mandate)",
+      "zero_cost_viable": false
+    }
+  },
+  "local_gpu_models_evaluated": {
+    "LTX-Video (ltx2-local)": {
+      "hf_id": "Lightricks/LTX-Video",
+      "parameters": "2.0B DiT + T5-XXL text encoder",
+      "weights_download_size_gb": 15.8,
+      "openmontage_vram_requirement_mb": 12000,
+      "calculated_vram_offloaded_mb": 10500,
+      "vram_fit_8gb": false,
+      "calculated_system_ram_mb": 17500,
+      "ram_fit_16gb": false,
+      "i2v_support": true,
+      "zero_cost_viable": false,
+      "reason": "Requires 12GB VRAM per OpenMontage spec. Peak VRAM with 3D VAE decode exceeds 8GB. Host RAM demand (~17.5GB) exceeds 16GB system RAM on Windows."
+    },
+    "Wan 2.1 (wan2.1-1.3b)": {
+      "hf_id": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+      "parameters": "1.3B DiT + UMT5 text encoder",
+      "weights_download_size_gb": 11.2,
+      "torch_and_diffusers_download_gb": 4.2,
+      "total_download_size_gb": 15.4,
+      "openmontage_vram_requirement_mb": 8000,
+      "calculated_vram_offloaded_mb": 7600,
+      "vram_fit_8gb": "Marginal (within 8GB but prone to OOM on 3D VAE detokenize)",
+      "calculated_system_ram_mb": 18000,
+      "ram_fit_16gb": false,
+      "i2v_support": false,
+      "zero_cost_viable": false,
+      "reason": "Wan 2.1 never shipped a 1.3B image-to-video checkpoint (text-to-video only; lacks reference image support). Host RAM exceeds 16GB with offload. Multi-GB download (~15.4GB) violates prompt constraint against multi-hour massive downloads."
+    },
+    "Wan 2.2 TI2V (wan2.2-ti2v-5b)": {
+      "hf_id": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "parameters": "5.0B",
+      "openmontage_vram_requirement_mb": 12000,
+      "vram_fit_8gb": false,
+      "zero_cost_viable": false,
+      "reason": "Requires 12GB VRAM minimum."
+    },
+    "CogVideoX (cogvideo-5b)": {
+      "hf_id": "THUDM/CogVideoX-5b",
+      "parameters": "5.0B",
+      "openmontage_vram_requirement_mb": 12000,
+      "vram_fit_8gb": false,
+      "zero_cost_viable": false,
+      "reason": "Requires 12GB VRAM minimum."
+    },
+    "HunyuanVideo (hunyuan_video)": {
+      "hf_id": "Tencent/HunyuanVideo",
+      "parameters": "13.0B",
+      "openmontage_vram_requirement_mb": 32000,
+      "vram_fit_8gb": false,
+      "zero_cost_viable": false,
+      "reason": "Requires 32GB VRAM minimum."
+    },
+    "ComfyUI (comfyui_video)": {
+      "server_status": "Not running on localhost:8188",
+      "partner_nodes": "Require paid cloud credits",
+      "zero_cost_viable": false
+    }
+  },
+  "hard_rule_verdict": "NO_ZERO_COST_AI_VIDEO_BACKEND",
+  "verdict_details": "Zero-cost video generation is impossible on this hardware without either violating the 8GB VRAM / 16GB RAM limit, triggering a multi-GB 15+ GB download, or faking video with FFmpeg/compositor. Per the explicit Hard Rule in Phase 13 instructions, generation must halt honestly."
+}

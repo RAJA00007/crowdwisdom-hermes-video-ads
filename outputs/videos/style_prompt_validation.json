@@ -1,0 +1,63 @@
+{
+  "valid": true,
+  "total_scenes": 8,
+  "errors": [],
+  "scene_results": [
+    {
+      "scene_id": "scene_01",
+      "valid": true,
+      "errors": [],
+      "style_mode": "deep_diorama",
+      "camera_move": "push-in"
+    },
+    {
+      "scene_id": "scene_02",
+      "valid": true,
+      "errors": [],
+      "style_mode": "deep_diorama",
+      "camera_move": "fast lateral track then hard stop with overshoot"
+    },
+    {
+      "scene_id": "scene_03",
+      "valid": true,
+      "errors": [],
+      "style_mode": "locked_stage",
+      "camera_move": "slow drift lateral"
+    },
+    {
+      "scene_id": "scene_04",
+      "valid": true,
+      "errors": [],
+      "style_mode": "deep_diorama",
+      "camera_move": "dive through a layer"
+    },
+    {
+      "scene_id": "scene_05",
+      "valid": true,
+      "errors": [],
+      "style_mode": "flat_parallax",
+      "camera_move": "macro slide along an object, rack focus tip\u2192subject"
+    },
+    {
+      "scene_id": "scene_06",
+      "valid": true,
+      "errors": [],
+      "style_mode": "deep_diorama",
+      "camera_move": "orbit quarter turn"
+    },
+    {
+      "scene_id": "scene_07",
+      "valid": true,
+      "errors": [],
+      "style_mode": "flat_parallax",
+      "camera_move": "ride a path like a rail"
+    },
+    {
+      "scene_id": "scene_08",
+      "valid": true,
+      "errors": [],
+      "style_mode": "locked_stage",
+      "camera_move": "slow drift lateral"
+    }
+  ]
+}

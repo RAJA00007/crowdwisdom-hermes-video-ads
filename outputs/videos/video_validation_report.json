@@ -1,0 +1,40 @@
+{
+  "validated_at": "2026-09-19T14:11:13.547287+00:00",
+  "all_passed": true,
+  "criteria_checks": {
+    "duration_30_to_60s": true,
+    "resolution_1080x1920": true,
+    "playable_mp4": true,
+    "audio_mixed": true,
+    "voiceover_present": true,
+    "proprietary_data_verified": true,
+    "cta_and_branding_present": true,
+    "zero_fabricated_claims": true
+  },
+  "concept_validations": [
+    {
+      "concept_id": "concept_01",
+      "duration_sec": 42.0,
+      "is_duration_valid": true,
+      "resolution": "1080x1920",
+      "is_resolution_valid": true,
+      "playable_file": true
+    },
+    {
+      "concept_id": "concept_02",
+      "duration_sec": 40.0,
+      "is_duration_valid": true,
+      "resolution": "1080x1920",
+      "is_resolution_valid": true,
+      "playable_file": true
+    },
+    {
+      "concept_id": "concept_03",
+      "duration_sec": 42.0,
+      "is_duration_valid": true,
+      "resolution": "1080x1920",
+      "is_resolution_valid": true,
+      "playable_file": true
+    }
+  ]
+}

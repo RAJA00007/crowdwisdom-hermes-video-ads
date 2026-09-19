@@ -1,0 +1,8 @@
+{
+  "installed": true,
+  "version": "08e2151",
+  "install_path": "C:\\Users\\Raja\\OpenMontage",
+  "source": "https://github.com/calesthio/OpenMontage.git",
+  "installation_method": "git_clone",
+  "verification": "Repository verified with 40+ video and audio tools in tools/video and tools/audio"
+}

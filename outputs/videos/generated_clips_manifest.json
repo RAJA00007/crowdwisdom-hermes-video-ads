@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-09-19T16:57:54.273063+00:00",
+  "total_clips": 8,
+  "openmontage_status": "OPENMONTAGE_NOT_CONFIGURED",
+  "active_primary_provider": "fallback_editorial_compositor",
+  "fallback_engaged": true,
+  "hierarchy_summary": {
+    "hierarchy": [
+      "openmontage",
+      "hyperframes",
+      "leronx",
+      "fallback_editorial_compositor"
+    ],
+    "openmontage_status": "OPENMONTAGE_NOT_CONFIGURED",
+    "active_primary_provider": "fallback_editorial_compositor",
+    "fallback_engaged": true,
+    "provider_statuses": [
+      {
+        "provider": "openmontage",
+        "configured": false,
+        "status": "OPENMONTAGE_NOT_CONFIGURED",
+        "has_api_key": false,
+        "has_bin_path": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "hyperframes",
+        "configured": false,
+        "status": "HYPERFRAMES_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "leronx",
+        "configured": false,
+        "status": "LERONX_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "fallback_editorial_compositor",
+        "configured": true,
+        "status": "CONFIGURED",
+        "is_local_fallback": true,
+        "supports_image_reference": false,
+        "note": "Deterministic paper diorama compositor reproducing company reference with authentic halftone dot screening, cut-paper layers, and verified typography."
+      }
+    ]
+  },
+  "clips": [
+    {
+      "scene_id": "scene_01",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet for materials only \u2014 aged-print collage textures, halftone black-and-white cutout people with rough keylines and offset accent strokes, giant stat numbers, print grain. Do NOT copy the sheet's layout or its flatness: every clip is a deep 3D paper diorama \u2014 cutouts are physical layers separated in real space, strong shallow depth of field, foreground elements crossing close to the lens. The camera is an actor: it flies between layers, orbits, dives, whips, racks focus \u2014 one committed cinematic move per clip. Backgrounds change per clip, always within the sheet's palette. ALERT WASH means the entire frame floods to the hot accent tone in one beat. Motion: springs with overshoot, staggered entrances, ticking counters. Audio: sound design only \u2014 paper pops, whooshes, stamps, ticks. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: at three distinct physical paper depths: background nautical map deep, trader cutout at midground, 2:17 AM stat card near the lens\nBACKGROUND: Muted archival paper field with faint antique navigation map linework and print grain\nMG: Halftone black-and-white cutout of exhausted trader with rough white keyline and offset hot-red accent stroke\nFG: (giant number) 2:17 AM paper stat card with soft paper drop shadow and (label) Midnight Anomaly typewriter tape strip\nCAMERA: push-in (ONE committed camera move)\nSETTLE: Camera settles close on illuminated 2:17 AM stat card while trader profile sits slightly out of focus in midground\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[subtle paper slide, mechanical clock tick, quiet room tone] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no flat single-plane composition, no static locked-off camera, no glossy plastic CG (depth stays papercraft), no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "deep_diorama",
+      "duration": 4.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_01.mp4",
+      "timestamp": "2026-09-19T16:54:19.728766+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_01.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_02",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet for materials only \u2014 aged-print collage textures, halftone black-and-white cutout people with rough keylines and offset accent strokes, giant stat numbers, print grain. Do NOT copy the sheet's layout or its flatness: every clip is a deep 3D paper diorama \u2014 cutouts are physical layers separated in real space, strong shallow depth of field, foreground elements crossing close to the lens. The camera is an actor: it flies between layers, orbits, dives, whips, racks focus \u2014 one committed cinematic move per clip. Backgrounds change per clip, always within the sheet's palette. ALERT WASH means the entire frame floods to the hot accent tone in one beat. Motion: springs with overshoot, staggered entrances, ticking counters. Audio: sound design only \u2014 paper pops, whooshes, stamps, ticks. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: stacked receding into the frame with overlapping paper newsprint and financial columns, nearest element crosses the lens with motion blur\nBACKGROUND: Stacked archival newspaper columns and faded financial chart linework across archival tan (#C9BB9C)\nMG: Staggered halftone black-and-white media cutouts and analyst portraits with rough white keylines and offset red marker strokes\nFG: (label) BREAKING NEWS typewriter strips, ticker paper cards, hot-red arrows, and red underlines entering with spring pop-ups\nCAMERA: fast lateral track then hard stop with overshoot (ONE committed camera move)\nSETTLE: Hard stop with spring overshoot on a cluster of conflicting headline cards\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[track rumble, stall click, paper pops] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no flat single-plane composition, no static locked-off camera, no glossy plastic CG (depth stays papercraft), no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "deep_diorama",
+      "duration": 5.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_02.mp4",
+      "timestamp": "2026-09-19T16:54:34.077871+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_02.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_03",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nDocumentary cutout-collage stage: a locked, muted archival map/texture background that never changes. Midground: black-and-white halftone cutouts with a rough white keyline and an offset red marker stroke behind each. Foreground: structures, props, and big stat numbers in full color. Condensed bold headline caps; numbers rendered huge, as characters. Desaturated palette plus one hot red accent, secondary mustard. Spring pop-ups with slight overshoot, staggered entrances, counters ticking up, red underline swipes. Camera: subtle slow drift only, never cuts.\n\n============================================================\nSHOT\n============================================================\nDEPTH: one plane locked stage: locked muted archival background with foreground typography snapping forward\nBACKGROUND: Locked, muted archival tan paper background with physical fiber noise and print grain\nMG: None (deliberate editorial reduction to amplify statement impact)\nFG: (headline) TOO MUCH INFORMATION snapping to (headline) NOT ENOUGH SIGNAL with Hot Red underline swipe beneath SIGNAL\nCAMERA: slow drift lateral (ONE committed camera move)\nSETTLE: Subtle slow lateral drift holding on the red-underlined SIGNAL tension frame\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[stall click, drain hiss, room tone falling to near silence] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no glossy CG 3D, no lens flares, no camera cuts within the clip, no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no simultaneous entrances, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "locked_stage",
+      "duration": 4.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_03.mp4",
+      "timestamp": "2026-09-19T16:54:58.233819+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_03.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_04",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet for materials only \u2014 aged-print collage textures, halftone black-and-white cutout people with rough keylines and offset accent strokes, giant stat numbers, print grain. Do NOT copy the sheet's layout or its flatness: every clip is a deep 3D paper diorama \u2014 cutouts are physical layers separated in real space, strong shallow depth of field, foreground elements crossing close to the lens. The camera is an actor: it flies between layers, orbits, dives, whips, racks focus \u2014 one committed cinematic move per clip. Backgrounds change per clip, always within the sheet's palette. ALERT WASH means the entire frame floods to the hot accent tone in one beat. Motion: springs with overshoot, staggered entrances, ticking counters. Audio: sound design only \u2014 paper pops, whooshes, stamps, ticks. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: three physical depths: background ledger grid deep, midground network of cutouts, giant stat card flying forward near the lens\nBACKGROUND: Faded antique map and mathematical coordinate grid on archival tan field\nMG: Dozens of small halftone trader cutouts connected by red taut thread lines and red push-pins\nFG: (giant number) 1,482,930 (label) VERIFIED TRADER INPUTS printed stat card stamped with tactile force\nCAMERA: dive through a layer (ONE committed camera move)\nSETTLE: Snaps into razor focus on the 1,482,930 stat card while background halftone network blurs\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[submerge whoosh, deep pressure hum, stamp snap] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no flat single-plane composition, no static locked-off camera, no glossy plastic CG (depth stays papercraft), no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "deep_diorama",
+      "duration": 6.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_04.mp4",
+      "timestamp": "2026-09-19T16:55:33.616417+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_04.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_05",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet as the strict visual system \u2014 match its aged-newsprint collage surface, desaturated archival palette with one hot accent, condensed headline caps with giant stat numbers, halftone black-and-white cutout people with rough white keylines and offset accent strokes, and its print-grain finish. Do NOT copy the sheet's layout; it defines the language, not the composition. Layers sit at distinct depths like a paper diorama \u2014 true parallax, never glossy 3D. Backgrounds are muted archival fields, varying per clip within this palette. ALERT WASH means the whole frame floods toward the hot accent tone. Motion: spring pop-ups with overshoot, staggered entrances, ticking counters, underline swipes; one slow camera move per clip. Audio: sound design only \u2014 paper pops, thwips, stamps, ticks, low newsroom hum. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: restrained flat parallax: card surface at base, data strips in midground, bold metrics in foreground at distinct depths\nBACKGROUND: Locked muted archival stage with clean printed timeline axis and date notches\nMG: Paper comparison strips contrasting retail baseline against verified CrowdWisdom performance\nFG: Moment A: (giant number) 68.4% (label) DIRECTIONAL ACCURACY with ticking counter -> Moment B: (giant number) 14.6 HOURS (label) EARLY-WARNING LEAD with red arrow stroke\nCAMERA: macro slide along an object, rack focus tip\u2192subject (ONE committed camera move)\nSETTLE: Rack focus locks directly onto 14.6 HOURS with bright hot-red marker underline\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[paper pops, mechanical counter tick, marker glide] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no glossy CG 3D, no lens flares, no camera cuts within the clip, no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no simultaneous entrances, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "flat_parallax",
+      "duration": 8.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_05.mp4",
+      "timestamp": "2026-09-19T16:56:12.046457+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_05.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_06",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet for materials only \u2014 aged-print collage textures, halftone black-and-white cutout people with rough keylines and offset accent strokes, giant stat numbers, print grain. Do NOT copy the sheet's layout or its flatness: every clip is a deep 3D paper diorama \u2014 cutouts are physical layers separated in real space, strong shallow depth of field, foreground elements crossing close to the lens. The camera is an actor: it flies between layers, orbits, dives, whips, racks focus \u2014 one committed cinematic move per clip. Backgrounds change per clip, always within the sheet's palette. ALERT WASH means the entire frame floods to the hot accent tone in one beat. Motion: springs with overshoot, staggered entrances, ticking counters. Audio: sound design only \u2014 paper pops, whooshes, stamps, ticks. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: deep 3D paper diorama: camera orbits around calmed trader cutout with single ALERT WASH color flood in real physical depth\nBACKGROUND: Archival paper stage flooding completely toward Hot Red (#D62E1F) in ALERT WASH, then returning to calm archival tan\nMG: Exact same halftone trader cutout (trader_char_01) with rough white keyline and offset red stroke, now in calm posture\nFG: (label) THE SIGNAL printed paper trading card with clean Hot Red directional path cutting forward\nCAMERA: orbit quarter turn (ONE committed camera move)\nSETTLE: Camera completes quarter orbit, holding in sharp focus on the calmed trader and clear signal path\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[rising air riser, deep sub thud, calm keystroke] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no flat single-plane composition, no static locked-off camera, no glossy plastic CG (depth stays papercraft), no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "deep_diorama",
+      "duration": 7.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_06.mp4",
+      "timestamp": "2026-09-19T16:56:43.245706+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_06.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_07",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nUse the attached style sheet as the strict visual system \u2014 match its aged-newsprint collage surface, desaturated archival palette with one hot accent, condensed headline caps with giant stat numbers, halftone black-and-white cutout people with rough white keylines and offset accent strokes, and its print-grain finish. Do NOT copy the sheet's layout; it defines the language, not the composition. Layers sit at distinct depths like a paper diorama \u2014 true parallax, never glossy 3D. Backgrounds are muted archival fields, varying per clip within this palette. ALERT WASH means the whole frame floods toward the hot accent tone. Motion: spring pop-ups with overshoot, staggered entrances, ticking counters, underline swipes; one slow camera move per clip. Audio: sound design only \u2014 paper pops, thwips, stamps, ticks, low newsroom hum. No music. No voice-over.\n\n============================================================\nSHOT\n============================================================\nDEPTH: at three distinct physical depths: map texture deep, mounted radar paper card midground, tape tags foreground\nBACKGROUND: Aged cartographic paper background with navigational latitude lines\nMG: Real CrowdWisdom Sentiment Early-Warning Radar interface mounted as a physical cut-paper card with drop shadow (no UI or glass elements)\nFG: (label) CROWD CONVICTION mustard tape strip with hot-red push pin and red underline\nCAMERA: ride a path like a rail (ONE committed camera move)\nSETTLE: Smooth deceleration rail stop centering the Sentiment Radar card with drop shadow\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[track rumble, paper pin press, interface click] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no glossy CG 3D, no lens flares, no camera cuts within the clip, no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no simultaneous entrances, no music, no soundtrack, no voice-over, no narration, no lyrics, no UI or glass elements",
+      "style_mode": "flat_parallax",
+      "duration": 6.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_07.mp4",
+      "timestamp": "2026-09-19T16:57:25.149838+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_07.mp4"
+        }
+      ],
+      "error": null
+    },
+    {
+      "scene_id": "scene_08",
+      "provider": "fallback_editorial_compositor",
+      "prompt": "============================================================\nSTYLE BLOCK\n============================================================\nDocumentary cutout-collage stage: a locked, muted archival map/texture background that never changes. Midground: black-and-white halftone cutouts with a rough white keyline and an offset red marker stroke behind each. Foreground: structures, props, and big stat numbers in full color. Condensed bold headline caps; numbers rendered huge, as characters. Desaturated palette plus one hot red accent, secondary mustard. Spring pop-ups with slight overshoot, staggered entrances, counters ticking up, red underline swipes. Camera: subtle slow drift only, never cuts.\n\n============================================================\nSHOT\n============================================================\nDEPTH: locked paper stage: clean archival tan background with bold printed CTA elements\nBACKGROUND: Clean locked archival paper stage (#C9BB9C) with subtle paper grain finish\nMG: None\nFG: (headline) CROWDWISDOM TRADING / (headline) SEE THE SIGNAL INSIDE THE NOISE. / (label) crowdwisdomtrading.com with Hot Red underline\nCAMERA: slow drift lateral (ONE committed camera move)\nSETTLE: Holds on tension frame with final red brand underline and mustard access tag\n\n============================================================\nAUDIO\n============================================================\nAUDIO:\n[deep sub thud, paper stamp snap, room tone falling to near silence] \u2014 sound design only, no music, no narration.\n\n============================================================\nAVOID\n============================================================\nAVOID: no glossy CG 3D, no lens flares, no camera cuts within the clip, no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no simultaneous entrances, no music, no soundtrack, no voice-over, no narration, no lyrics",
+      "style_mode": "locked_stage",
+      "duration": 5.0,
+      "resolution": "1080x1920",
+      "generation_status": "SUCCESS",
+      "fallback_used": true,
+      "source_reference_image": "assets\\style_reference\\company_art_direction.png",
+      "output_path": "outputs\\videos\\generated_clips\\scene_08.mp4",
+      "timestamp": "2026-09-19T16:57:54.254289+00:00",
+      "attempt_history": [
+        {
+          "provider": "openmontage",
+          "status": "OPENMONTAGE_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for openmontage."
+        },
+        {
+          "provider": "hyperframes",
+          "status": "HYPERFRAMES_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for hyperframes."
+        },
+        {
+          "provider": "leronx",
+          "status": "LERONX_NOT_CONFIGURED",
+          "reason": "Missing API key or binary in environment for leronx."
+        },
+        {
+          "provider": "fallback_editorial_compositor",
+          "status": "SUCCESS",
+          "output_path": "outputs\\videos\\generated_clips\\scene_08.mp4"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

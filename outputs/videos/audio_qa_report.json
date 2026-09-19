@@ -1,0 +1,16 @@
+{
+  "audio_qa_status": "PASSED",
+  "lufs_integrated": -16.6,
+  "target_lufs": -16.0,
+  "true_peak_dbtp": -1.9,
+  "target_true_peak_max": -1.0,
+  "loudness_range_lu": 0.0,
+  "audio_clipping_detected": false,
+  "tracks": {
+    "track_1": "Master Narration (Calm editorial documentary voice, zero overlap)",
+    "track_2": "Music Bed (Sidechain ducked -8dB beneath narrator)",
+    "track_3": "Synchronized Motivated SFX (Clock tick, paper rustle, card slide, thread pull, keystroke)"
+  },
+  "music_ducking_active": true,
+  "ducking_attenuation_db": -8.0
+}

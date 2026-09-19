@@ -1,0 +1,313 @@
+# PHASE 9 — OFFICIAL COMPANY ART-DIRECTION IMPLEMENTATION
+# CrowdWisdomTrading — "THE SIGNAL BEFORE THE MOVE"
+
+============================================================
+IMPORTANT — READ THIS FIRST
+============================================================
+
+The project already contains the official company-provided visual reference:
+
+assets/style_reference/company_art_direction.png
+
+THIS IMAGE IS THE AUTHORITATIVE VISUAL ART-DIRECTION REFERENCE.
+
+Before modifying any code, inspect this image carefully.
+
+Do NOT merely approximate the image from the words "Vox style".
+
+Do NOT invent a different visual identity.
+
+Do NOT replace this art direction with:
+- generic cinematic AI video
+- cyberpunk fintech graphics
+- SaaS dashboard design
+- neon 3D graphics
+- generic corporate motion graphics
+- Hollywood trailer aesthetics
+
+The company-provided image defines the visual language we must implement.
+
+The image is a STYLE REFERENCE, not a layout template.
+
+Reproduce its VISUAL LANGUAGE, not the exact composition.
+
+============================================================
+OFFICIAL COMPANY-PROVIDED PROMPT SYSTEM
+============================================================
+
+IMPORTANT:
+
+The following prompt system was provided as part of the company's
+creative reference material.
+
+Treat these prompt blocks as AUTHORITATIVE.
+
+DO NOT rewrite them.
+DO NOT summarize them.
+DO NOT replace them with generic "Vox-style" instructions.
+
+Implement them directly into the AI video / visual asset prompting layer.
+
+The system consists of:
+
+1. Flat Parallax
+2. Deep Diorama
+3. Locked Stage
+4. SHOT construction rules
+5. AUDIO construction rules
+6. AVOID rules
+7. Camera move library
+8. Escalation devices
+9. Named motion beats
+10. Sequencing rules
+
+The attached:
+
+assets/style_reference/company_art_direction.png
+
+is the visual reference.
+
+The company-provided prompt system below is the textual production specification.
+
+============================================================
+COMPANY STYLE BLOCK A — FLAT PARALLAX
+============================================================
+
+Use the attached style sheet as the strict visual system — match its aged-newsprint collage surface, desaturated archival palette with one hot accent, condensed headline caps with giant stat numbers, halftone black-and-white cutout people with rough white keylines and offset accent strokes, and its print-grain finish. Do NOT copy the sheet's layout; it defines the language, not the composition. Layers sit at distinct depths like a paper diorama — true parallax, never glossy 3D. Backgrounds are muted archival fields, varying per clip within this palette. ALERT WASH means the whole frame floods toward the hot accent tone. Motion: spring pop-ups with overshoot, staggered entrances, ticking counters, underline swipes; one slow camera move per clip. Audio: sound design only — paper pops, thwips, stamps, ticks, low newsroom hum. No music. No voice-over.
+
+============================================================
+COMPANY STYLE BLOCK B — DEEP DIORAMA
+============================================================
+
+Use the attached style sheet for materials only — aged-print collage textures, halftone black-and-white cutout people with rough keylines and offset accent strokes, giant stat numbers, print grain. Do NOT copy the sheet's layout or its flatness: every clip is a deep 3D paper diorama — cutouts are physical layers separated in real space, strong shallow depth of field, foreground elements crossing close to the lens. The camera is an actor: it flies between layers, orbits, dives, whips, racks focus — one committed cinematic move per clip. Backgrounds change per clip, always within the sheet's palette. ALERT WASH means the entire frame floods to the hot accent tone in one beat. Motion: springs with overshoot, staggered entrances, ticking counters. Audio: sound design only — paper pops, whooshes, stamps, ticks. No music. No voice-over.
+
+============================================================
+COMPANY STYLE BLOCK C — LOCKED STAGE
+============================================================
+
+Documentary cutout-collage stage: a locked, muted archival map/texture background that never changes. Midground: black-and-white halftone cutouts with a rough white keyline and an offset red marker stroke behind each. Foreground: structures, props, and big stat numbers in full color. Condensed bold headline caps; numbers rendered huge, as characters. Desaturated palette plus one hot red accent, secondary mustard. Spring pop-ups with slight overshoot, staggered entrances, counters ticking up, red underline swipes. Camera: subtle slow drift only, never cuts.
+
+============================================================
+COMPANY SHOT CONSTRUCTION RULES
+============================================================
+
+Every prompt must contain:
+
+BACKGROUND
+MG
+FG
+CAMERA
+SETTLE
+
+Background:
+Sets the depth field.
+
+MG:
+Defines the subject cutouts.
+
+FG:
+Defines the data element.
+
+Camera:
+ONE committed camera move.
+
+Settle:
+Defines the final frame.
+
+Every text element must be explicitly tagged:
+
+(headline)
+(label)
+(counter)
+(giant number)
+
+Every prompt must explicitly describe depth.
+
+Examples:
+
+"at three different depths"
+
+"one near the lens, two deep"
+
+"stacked receding into the frame"
+
+"the nearest whipping past the lens with motion blur"
+
+============================================================
+COMPANY CAMERA MOVE LIBRARY
+============================================================
+
+Allowed camera moves:
+
+push-in
+slow drift lateral
+dive through a layer
+orbit quarter turn
+whip ×2–3, each landing hard
+fast lateral track then hard stop with overshoot
+climb alongside a rising element
+fly low between columns
+ride a path like a rail
+macro slide along an object, rack focus tip→subject
+
+ONE CAMERA MOVE PER CLIP.
+
+Never use two unrelated camera moves in one clip.
+
+============================================================
+COMPANY ESCALATION DEVICES
+============================================================
+
+ALERT WASH:
+entire frame floods to hot accent.
+
+Use only for the major beat.
+
+FREEZE BEFORE CONTACT:
+everything freezes one millimeter before contact.
+
+COUNTER SLAM:
+number flies toward the lens and snaps into razor focus while everything else blurs.
+
+ACCELERATING LOOP:
+same geometry repeats with each lap becoming faster.
+
+============================================================
+COMPANY AUDIO RULE
+============================================================
+
+For generated visual clips using these style blocks:
+
+AUDIO:
+[2–3 sounds, comma separated] — sound design only, no music, no narration.
+
+Sound must mirror the camera movement.
+
+Dive:
+submerge whoosh, deep pressure hum.
+
+Whips:
+three whip whooshes, pops landing each hit.
+
+Track + stall:
+track rumble, stall click, drain hiss.
+
+Contact / wash:
+rising air riser, deep sub thud.
+
+Loop:
+accelerating ticks, whoosh per lap.
+
+Tension:
+rubber creak, room tone falling to near silence.
+
+The MASTER narration and music are added later by the deterministic
+editorial audio pipeline.
+
+============================================================
+COMPANY AVOID — FLAT PARALLAX / LOCKED STAGE
+============================================================
+
+AVOID: no glossy CG 3D, no lens flares, no camera cuts within the clip, no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no simultaneous entrances, no music, no soundtrack, no voice-over, no narration, no lyrics
+
+============================================================
+COMPANY AVOID — DEEP DIORAMA
+============================================================
+
+AVOID: no flat single-plane composition, no static locked-off camera, no glossy plastic CG (depth stays papercraft), no full-color midground portraits (people stay halftone black-and-white), no warped or gibberish text, no invented logos, no watermarks, no music, no soundtrack, no voice-over, no narration, no lyrics
+
+When screens/dashboards/technology appear, additionally add:
+
+no UI or glass elements
+
+============================================================
+COMPANY SEQUENCING RULES
+============================================================
+
+Choose the style block per clip.
+
+Use:
+
+Flat Parallax:
+restrained data moments.
+
+Deep Diorama:
+major reveals and escalation.
+
+Locked Stage:
+stable explanatory compositions.
+
+Vary backgrounds while remaining within the same palette.
+
+Vary camera movements.
+
+Never use the same camera move twice consecutively.
+
+Reuse geometry between clips where useful.
+
+Example:
+
+build the loop
+→ ride the loop
+→ blow past the loop
+
+Reserve ALERT WASH for one major moment.
+
+End the sequence on a held tension frame where appropriate.
+
+============================================================
+IMPLEMENTATION REQUIREMENT
+============================================================
+
+Create a reusable style-prompt system in code.
+
+Recommended:
+
+tools/style_prompt_system.py
+
+It should expose:
+
+get_flat_parallax_style()
+get_deep_diorama_style()
+get_locked_stage_style()
+
+and:
+
+build_shot_prompt()
+build_audio_prompt()
+build_avoid_prompt()
+
+The exact company-provided style blocks above should be stored
+without rewriting them.
+
+The Storyboard Agent should choose the appropriate style block
+for every scene.
+
+The Video Agent should receive:
+
+STYLE BLOCK
++
+SHOT
++
+AUDIO
++
+AVOID
+
+as the final generation prompt.
+
+Do not collapse these into one generic paragraph.
+
+============================================================
+IMPORTANT
+============================================================
+
+The company-provided prompt system and company-provided image
+are the primary creative references.
+
+Our CrowdWisdom story/content is layered ON TOP of this visual system.
+
+Do not replace the company art direction with our own interpretation.
+
+The implementation should demonstrate that the agent can take a
+fixed professional art-direction system and dynamically produce
+multiple coherent scenes from it.

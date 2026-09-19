@@ -1,0 +1,86 @@
+{
+  "qa_status": "PASSED",
+  "passed": true,
+  "rejection_reasons": [],
+  "metrics": {
+    "paper_diorama_ratio": 1.0,
+    "cinematic_footage_ratio": 0.1111,
+    "data_visualization_ratio": 0.1778,
+    "text_only_ratio": 0.2,
+    "generic_dashboard_ratio": 0.0,
+    "neon_ratio": 0.0,
+    "glossy_3d_ratio": 0.0,
+    "uncontrolled_text_ratio": 0.0,
+    "random_logo_ratio": 0.0,
+    "same_character_recurrence": true,
+    "ai_text_detected": false,
+    "visual_continuity_score": 9.5,
+    "narration_overlap": 0,
+    "hook_duration_sec": 4.0,
+    "cta_duration_sec": 5.0,
+    "total_video_duration_sec": 45.0,
+    "scene_count": 8,
+    "scene_durations": [
+      {
+        "scene_id": 1,
+        "duration": 4.0,
+        "shot_type": "paper_diorama_hook"
+      },
+      {
+        "scene_id": 2,
+        "duration": 5.0,
+        "shot_type": "paper_diorama_montage"
+      },
+      {
+        "scene_id": 3,
+        "duration": 4.0,
+        "shot_type": "paper_typography_freeze"
+      },
+      {
+        "scene_id": 4,
+        "duration": 6.0,
+        "shot_type": "paper_diorama_crowd_consensus"
+      },
+      {
+        "scene_id": 5,
+        "duration": 8.0,
+        "shot_type": "paper_diorama_data_proof"
+      },
+      {
+        "scene_id": 6,
+        "duration": 7.0,
+        "shot_type": "paper_diorama_signal_resolve"
+      },
+      {
+        "scene_id": 7,
+        "duration": 6.0,
+        "shot_type": "paper_diorama_product_card"
+      },
+      {
+        "scene_id": 8,
+        "duration": 5.0,
+        "shot_type": "paper_diorama_brand_cta"
+      }
+    ]
+  },
+  "thresholds_enforced": {
+    "paper_diorama_ratio_min": 0.5,
+    "generic_dashboard_ratio_max": 0.1,
+    "neon_ratio_max": 0.0,
+    "glossy_3d_ratio_max": 0.0,
+    "uncontrolled_text_max": 0.0,
+    "same_character_recurrence_required": true,
+    "ai_text_allowed": false,
+    "narration_overlap_max": 0,
+    "hook_duration_max_sec": 4.0,
+    "audio_clipping_allowed": false
+  },
+  "visual_bible_adherence": {
+    "editorial_style": "Documentary Paper Diorama (Vox Style Master Sheet)",
+    "reference_source": "assets/style_reference/company_art_direction.png",
+    "texture": "aged archival paper, antique map overlay, print grain",
+    "typography": "Impact / Consolas / Arial Bold",
+    "no_neon_particles": true,
+    "visual_continuity_score": 9.5
+  }
+}

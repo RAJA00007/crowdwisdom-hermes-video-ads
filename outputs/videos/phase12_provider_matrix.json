@@ -1,0 +1,373 @@
+{
+  "openmontage_installed": true,
+  "openmontage_path": "C:\\Users\\Raja\\OpenMontage",
+  "total_video_tools": 26,
+  "providers": {
+    "atlas_video": {
+      "provider_name": "atlascloud",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "ATLASCLOUD_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video",
+        "video_edit"
+      ],
+      "supports_image_reference": true
+    },
+    "cogvideo_video": {
+      "provider_name": "cogvideo",
+      "runtime": "local_gpu",
+      "supported": true,
+      "configured": false,
+      "credential_required": false,
+      "required_credential": "LOCAL_GPU (torch+diffusers)",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "model_selection"
+      ],
+      "supports_image_reference": false
+    },
+    "comfyui_video": {
+      "provider_name": "comfyui",
+      "runtime": "local_gpu",
+      "supported": true,
+      "configured": false,
+      "credential_required": false,
+      "required_credential": "COMFYUI_SERVER_URL",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": false
+    },
+    "gemini_omni_fal": {
+      "provider_name": "gemini_omni",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "FAL_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video",
+        "edit_video"
+      ],
+      "supports_image_reference": true
+    },
+    "gemini_omni_video": {
+      "provider_name": "gemini_omni",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "GOOGLE_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video",
+        "edit_video"
+      ],
+      "supports_image_reference": true
+    },
+    "grok_video": {
+      "provider_name": "grok",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "XAI_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "heygen_video": {
+      "provider_name": "heygen",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "HEYGEN_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "provider_selection"
+      ],
+      "supports_image_reference": false
+    },
+    "higgsfield_video": {
+      "provider_name": "higgsfield",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "hunyuan_cloud_video": {
+      "provider_name": "hunyuan_cloud",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "TENCENT_TOKENHUB_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "hunyuan_video": {
+      "provider_name": "hunyuan",
+      "runtime": "local_gpu",
+      "supported": true,
+      "configured": false,
+      "credential_required": false,
+      "required_credential": "LOCAL_GPU (torch+diffusers)",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": false
+    },
+    "jimeng_video": {
+      "provider_name": "volcengine",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "VOLC_ACCESSKEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "kling_official_video": {
+      "provider_name": "kling_official",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "KLING_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "kling_video": {
+      "provider_name": "kling",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "FAL_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "ltx_video_local": {
+      "provider_name": "ltx",
+      "runtime": "local_gpu",
+      "supported": true,
+      "configured": false,
+      "credential_required": false,
+      "required_credential": "LOCAL_GPU (torch+diffusers)",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": false
+    },
+    "ltx_video_modal": {
+      "provider_name": "ltx-modal",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": false
+    },
+    "minimax_fal_video": {
+      "provider_name": "minimax",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "FAL_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "minimax_video": {
+      "provider_name": "minimax",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "MINIMAX_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "first_last_frame_to_video",
+        "reference_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "pexels_video": {
+      "provider_name": "pexels",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "PEXELS_API_KEY",
+      "capabilities": [
+        "search_video",
+        "download_video",
+        "stock_video"
+      ],
+      "supports_image_reference": false
+    },
+    "pixabay_video": {
+      "provider_name": "pixabay",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "PIXABAY_API_KEY",
+      "capabilities": [
+        "search_video",
+        "download_video",
+        "stock_video"
+      ],
+      "supports_image_reference": false
+    },
+    "runway_video": {
+      "provider_name": "runway",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "RUNWAY_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "video_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "seedance_ark": {
+      "provider_name": "ark",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "ARK_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video",
+        "task_create",
+        "task_query",
+        "task_cancel"
+      ],
+      "supports_image_reference": true
+    },
+    "seedance_replicate": {
+      "provider_name": "seedance",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "REPLICATE_API_TOKEN",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "seedance_video": {
+      "provider_name": "seedance",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "FAL_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "sora_video": {
+      "provider_name": "openai",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "OPENAI_API_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "veo_video": {
+      "provider_name": "veo",
+      "runtime": "api",
+      "supported": true,
+      "configured": false,
+      "credential_required": true,
+      "required_credential": "FAL_KEY",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "reference_to_video",
+        "first_last_frame_to_video"
+      ],
+      "supports_image_reference": true
+    },
+    "wan_video": {
+      "provider_name": "wan",
+      "runtime": "local_gpu",
+      "supported": true,
+      "configured": false,
+      "credential_required": false,
+      "required_credential": "LOCAL_GPU (torch+diffusers)",
+      "capabilities": [
+        "text_to_video",
+        "image_to_video",
+        "video_to_video",
+        "first_last_frame",
+        "text_to_image",
+        "long_form_chaining",
+        "model_selection"
+      ],
+      "supports_image_reference": false
+    }
+  }
+}

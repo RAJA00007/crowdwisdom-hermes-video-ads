@@ -1,0 +1,23 @@
+{
+  "project": "crowdwisdom-hermes-video-ads",
+  "phase": 19,
+  "status": "DELIVERED",
+  "final_master": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\final_cinematic_ad_phase19.mp4",
+  "qa_report": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\phase19_final_qa.json",
+  "evidence_frames": [
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s1_hook.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s2_overload.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s3_collapse.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s4_network.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s5_accuracy.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s6_lead.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s7_payoff.png",
+    "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\p19_frame_s8_cta.png"
+  ],
+  "frozen_engine": "tools/vox_motion_engine.py",
+  "script_source": "outputs/videos/phase16_original_script.json",
+  "storyboard_source": "outputs/videos/phase16_cinematic_storyboard.json",
+  "runtime_seconds": 46.49,
+  "resolution": "1080x1920",
+  "framerate": 30
+}

@@ -1,0 +1,46 @@
+{
+  "company_reference_found": true,
+  "company_prompt_system_integrated": false,
+  "flat_parallax_implemented": false,
+  "deep_diorama_implemented": false,
+  "locked_stage_implemented": false,
+  "shot_structure_implemented": false,
+  "audio_structure_implemented": false,
+  "avoid_structure_implemented": false,
+  "camera_library_implemented": false,
+  "style_selection_per_scene": false,
+  "files_audited": [
+    "assets/style_reference/company_art_direction.png",
+    "prompts/phase9_official_art_direction.txt",
+    "tools/style_prompt_system.py",
+    "tools/video_generation_tool.py",
+    "tools/editorial_compositor.py",
+    "agents/storyboard_agent.py",
+    "agents/video_agent.py",
+    "agents/creative_agent.py",
+    "outputs/videos/editorial_storyboard.json",
+    "outputs/videos/asset_manifest.json",
+    "outputs/videos/video_generation_report.json"
+  ],
+  "audit_findings": {
+    "1_scene_prompts_creation": "Scene prompts were generated in storyboard_agent.py and outputs/videos/editorial_storyboard.json but did not follow the strict Step 15 schema (scene_id, duration, style_mode, style_block, background, mg, fg, camera_move, settle, audio, avoid, approved_text, approved_numbers).",
+    "2_prompts_passed_to_video_tool": "tools/video_generation_tool.py currently focuses on API-key validation and fallback without ingesting the 4-part (STYLE BLOCK + SHOT + AUDIO + AVOID) prompt contract into prompt parameters.",
+    "3_flat_parallax_state": "Defined in string constants in style_prompt_system.py, but not fully implemented as a distinct rendering and validation pipeline.",
+    "4_deep_diorama_state": "Defined as a string constant; requires camera moves and 3D paper layer depth relationships to be strictly enforced.",
+    "5_locked_stage_state": "Defined as a string constant; needs verification that canvas remains locked across frames with drift-only camera moves.",
+    "6_shot_structure_state": "Function build_shot_prompt exists but storyboard contract schema lacked flat background/mg/fg/camera_move/settle root keys required by Step 15.",
+    "7_audio_structure_state": "Audio prompts exist, but distinction between visual clip sound design (no voiceover/music) and master advertisement mix (narration + music bed + SFX) must be enforced across tools.",
+    "8_avoid_structure_state": "Avoid blocks exist in style_prompt_system.py, but not audited by a dedicated validator.",
+    "9_camera_library_state": "Camera move strings exist, but validation to reject multiple contradictory moves per scene is missing.",
+    "10_company_style_image_reference": "assets/style_reference/company_art_direction.png exists and is visually verified, but video_generation_tool.py does not formally pass it to image-to-video providers or record capability truthfully.",
+    "11_style_selection_per_scene": "Storyboard has partial style assignment, but must adhere to Step 7 defaults (Hook: deep_diorama, Overload: deep_diorama, Typography: locked_stage, Crowd: deep_diorama, Data: flat_parallax, Trader: deep_diorama, Product: flat_parallax, CTA: locked_stage)."
+  },
+  "required_actions": [
+    "Upgrade tools/style_prompt_system.py with build_scene_prompt() and strict validation",
+    "Implement named motion primitives in tools/editorial_compositor.py (ALERT_WASH, TICK_UP, TEAR, STAMP, THREAD_PULL, UNDERLINE, COUNTER_SLAM, PAPER_POP, PAPER_SLIDE, CUTOUT_POP, PHOTO_CARD_ENTER, ANNOTATION_DRAW)",
+    "Rebuild outputs/videos/editorial_storyboard.json to match exact Step 15 contract schema",
+    "Create agents/style_prompt_validator.py and output outputs/videos/style_prompt_validation.json",
+    "Update video_generation_tool.py and video_agent.py to process company prompts truthfully",
+    "Render outputs/videos/style_test_13s_v2.mp4 (Beats 1-3 ONLY) as the hard style gate"
+  ]
+}

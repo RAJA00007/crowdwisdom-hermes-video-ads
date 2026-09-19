@@ -1,0 +1,384 @@
+{
+  "schema_version": "phase15.vox.1.0",
+  "project": "crowdwisdom-hermes-video-ads",
+  "title": "Phase 16: Research-Driven Cinematic Vox Visual Journalism Storyboard",
+  "target_runtime_seconds": 45.0,
+  "creative_system": {
+    "system_a_company_art": "Official Paper Diorama Prompt System (halftone B&W cutouts, white keylines, offset red strokes, archival palette #C9BB9C, #1A1A1A, #D62E1F, #D9A441)",
+    "system_b_vox_grammar": "Narration-driven visual journalism (every sentence has a visual argument, transformation, 2.5D depth, contrast)",
+    "system_c_research_story": "Grounding in Meta ads research, retail trader ICP pain points, and verified proprietary data (1,482,930 inputs, 68.4% accuracy, 14.6h lead)"
+  },
+  "verified_statistics": {
+    "total_trader_inputs": 1482930,
+    "directional_accuracy_pct": 68.4,
+    "early_warning_lead_hours": 14.6,
+    "tracked_tickers": 428,
+    "narrative_tension_device": "2:17 AM"
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start": 0.0,
+      "end": 5.0,
+      "narration": "At 2:17 in the morning, a trader isn't fighting the market. They're drowning in it.",
+      "visual_argument": "A solitary trader isolated in a dark void while market monitors flash alert warnings. The visual establishes the universal nocturnal vulnerability of retail traders facing silent institutional capital flows.",
+      "visual_metaphor": "A lone lighthouse keeper stranded in a silent ocean of nocturnal market volatility.",
+      "style_mode": "LOCKED_STAGE",
+      "background": "Muted archival newsprint grid, charcoal parchment texture, double keyline border, nocturnal city bokeh with raindrops sliding down glass pane.",
+      "midground": "B&W halftone cutout trader at workstation, rough white keyline, offset red marker shadow, cold cyan monitor glow across eyes and forehead.",
+      "foreground": "Giant bold condensed numerals '2:17 AM' stamping into frame with ALERT_WASH, corner red crosshairs, monospace session timestamp.",
+      "company_style_components": [
+        "halftone black-and-white cutout",
+        "rough white keyline",
+        "offset red marker stroke",
+        "condensed bold headline caps",
+        "ALERT_WASH",
+        "archival tan palette",
+        "corner crosshairs"
+      ],
+      "vox_visual_components": [
+        "VOX_HOOK",
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_PHOTO_CUTOUT",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "slow creeping push-in on trader's eyes",
+      "depth": "Front numeral plane at Z: +200px, trader subject at Z: 0px, archival newsprint wall at Z: -400px.",
+      "lighting": "Low-key chiaroscuro: cold cyan monitor luminescence contrasted with warm amber rim light and deep archival shadows.",
+      "transition_in": "Hard cut from black void with immediate audio sub-bass punch.",
+      "transformation": "The flashing red numeral colon ':' pulses and transforms into the blinking cursor of a live newsfeed terminal.",
+      "transition_out": "Match-cut on monitor cursor into cascading headline layers.",
+      "sound_events": [
+        "sub-bass pulse at 0.2s",
+        "mechanical clock tick",
+        "deep newsroom room tone"
+      ],
+      "approved_text": [
+        "2:17 AM",
+        "THE MARKET NEVER SLEEPS",
+        "SESSION: NOCTURNAL TRADING • GLOBAL FLOWS"
+      ],
+      "approved_numbers": [
+        "2:17 AM"
+      ]
+    },
+    {
+      "scene_id": "scene_02",
+      "start": 5.0,
+      "end": 10.0,
+      "narration": "Every second brings twenty new headlines, hundreds of opinions, and endless conflicting charts.",
+      "visual_argument": "Information physically overwhelms the trader, stacking endless layers of text, charts, and news clips until the screen is choked with noise, causing the trader to visually shrink.",
+      "visual_metaphor": "The Information Flood: an avalanche of financial paperwork burying the trader alive.",
+      "style_mode": "DEEP_DIORAMA",
+      "background": "Cascading financial newsprint columns, tape strips, and microfiche overlays.",
+      "midground": "B&W halftone trader cutout physically shrinking in scale as stacks of alert cards spring pop-up with overshoot.",
+      "foreground": "Flying red warning triangles, broken trendlines, hot red banner 'TOO MUCH INFORMATION', and newsprint fragments crossing close to the lens.",
+      "company_style_components": [
+        "aged-print collage textures",
+        "halftone black-and-white cutouts",
+        "spring pop-ups with overshoot",
+        "print-grain finish",
+        "newspaper fragments",
+        "ALERT_WASH"
+      ],
+      "vox_visual_components": [
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_VISUAL_METAPHOR",
+        "VOX_INFORMATION_BUILD",
+        "VOX_EDITORIAL_COLLAGE",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "fast lateral track then hard stop with overshoot",
+      "depth": "Extreme shallow DOF: flying foreground debris Z: +350px, trader midground Z: 0px, 4-tier newsprint backdrop Z: -600px.",
+      "lighting": "High-contrast flicker from multiple conflicting screens; harsh red warning light wash.",
+      "transition_in": "Match-cut on cursor expanding into flying data cards.",
+      "transformation": "TRANSFORMATION 1 (INFORMATION FLOOD): News cards multiply exponentially, and headline 'BREAKING MARKET COLLAPSE' tears down the middle (TEAR), the torn edge becoming a jagged red trendline.",
+      "transition_out": "Whip-track following the jagged trendline.",
+      "sound_events": [
+        "rapid paper rustle",
+        "accelerating mechanical ticks",
+        "track rumble",
+        "data flood hiss"
+      ],
+      "approved_text": [
+        "TOO MUCH INFORMATION",
+        "RATE: 14,000 ALERTS / MINUTE",
+        "ALERT: NOISE FLOOD"
+      ],
+      "approved_numbers": []
+    },
+    {
+      "scene_id": "scene_03",
+      "start": 10.0,
+      "end": 15.0,
+      "narration": "More data doesn't create clarity. It creates noise.",
+      "visual_argument": "All conflicting arrows, multiplying charts, and flying headlines abruptly freeze and collapse inward to dead-center, leaving one stark centered card on a silent archival tan canvas.",
+      "visual_metaphor": "The Vacuum Collapse: an explosion played in reverse, collapsing into a singular point of truth.",
+      "style_mode": "FLAT_PARALLAX",
+      "background": "Flat archival tan canvas with faint faded coordinate lines and frozen terminal code in monochrome.",
+      "midground": "Conflicting red and mustard directional arrows vibrating and canceling each other out, collapsing into center.",
+      "foreground": "Bold condensed typography 'NOT ENOUGH SIGNAL', signature hot red offset underline swipe.",
+      "company_style_components": [
+        "aged-newsprint collage surface",
+        "desaturated archival palette",
+        "red underline swipes",
+        "COUNTER_SLAM",
+        "THREAD_PULL"
+      ],
+      "vox_visual_components": [
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_VISUAL_METAPHOR",
+        "VOX_INFORMATION_COLLAPSE",
+        "VOX_KINETIC_TYPE",
+        "VOX_TRANSFORMATION"
+      ],
+      "camera_move": "slow drift lateral",
+      "depth": "Flat multi-plane parallax: foreground text Z: +120px, midground arrows Z: 0px, background grid Z: -250px.",
+      "lighting": "Flat stark documentary illumination; stark contrast between ink-black type and archival parchment.",
+      "transition_in": "Sudden inward contraction of surrounding noise cards into dead-center.",
+      "transformation": "TRANSFORMATION 2 (INFORMATION COLLAPSE): 20 moving layers collapse instantly into 1 centered card; red marker underline pulls tight like a thread (THREAD_PULL) and snaps into a horizontal baseline coordinate.",
+      "transition_out": "Baseline coordinate expands into latitude/longitude grid.",
+      "sound_events": [
+        "sudden vacuum cut of noise",
+        "50 Hz sub-bass drop",
+        "crisp paper friction snap",
+        "room tone falling to near silence"
+      ],
+      "approved_text": [
+        "NOT ENOUGH SIGNAL",
+        "DATA STATUS: COGNITIVE OVERLOAD",
+        "INFORMATION EFFICIENCY < 0.2%"
+      ],
+      "approved_numbers": []
+    },
+    {
+      "scene_id": "scene_04",
+      "start": 15.0,
+      "end": 21.0,
+      "narration": "CrowdWisdom doesn't guess. It unites the collective intelligence of 1,482,930 trader inputs.",
+      "visual_argument": "Hundreds of individual trader cutouts light up across a tactile paper map, each feeding a red signal thread into a central convergence hub, synchronizing into a single golden vector.",
+      "visual_metaphor": "Thousands of disparate human whispers resolving into one coherent, undeniable voice.",
+      "style_mode": "DEEP_DIORAMA",
+      "background": "Archival aged topographic map of global financial capitals with textured paper grain.",
+      "midground": "Multiple B&W halftone cutouts of traders across Tokyo, London, and New York, linked by glowing red vector lines.",
+      "foreground": "Giant stat counter '1,482,930' ticking up aggressively with spring pop-up overshoot (TICK_UP), red pill badge 'TRADER INPUTS'.",
+      "company_style_components": [
+        "halftone black-and-white cutout people",
+        "giant stat numbers",
+        "ticking counters",
+        "rough white keylines",
+        "offset hot-red strokes",
+        "TICK_UP",
+        "topographic paper map"
+      ],
+      "vox_visual_components": [
+        "VOX_DATA_EXPLANATION",
+        "VOX_MAP_SEQUENCE",
+        "VOX_PHOTO_CUTOUT",
+        "VOX_TRANSFORMATION",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "dive through a layer",
+      "depth": "3D diorama Z-depth: giant numerals Z: +250px, trader cutouts at varying depths Z: -100px to +50px, map terrain Z: -500px.",
+      "lighting": "Warm archival paper illumination with luminous red and gold vector lines glowing across the terrain.",
+      "transition_in": "Camera dives through the paper map surface as nodes illuminate.",
+      "transformation": "TRANSFORMATION 3 (TRADER TO NETWORK): Isolated individual trader cutouts connect across a global papercraft map into a synchronized network; the last digit '0' of 1,482,930 expands outward into a circular radar scope.",
+      "transition_out": "Radar sweep reveals comparative benchmark cards.",
+      "sound_events": [
+        "submerge whoosh",
+        "deep pressure hum",
+        "mechanical counter ticks",
+        "harmonic chime resolve"
+      ],
+      "approved_text": [
+        "1,482,930",
+        "TRADER INPUTS",
+        "UNIFIED REAL-TIME MARKET CONVERGENCE"
+      ],
+      "approved_numbers": [
+        "1,482,930 trader inputs"
+      ]
+    },
+    {
+      "scene_id": "scene_05",
+      "start": 21.0,
+      "end": 28.0,
+      "narration": "Delivering 68.4 percent directional accuracy—tested and verified across four hundred twenty-eight tickers.",
+      "visual_argument": "A giant dual-card statistical proof stage comparing CrowdWisdom's 68.4% accuracy directly against market noise with institutional authority.",
+      "visual_metaphor": "A precision balance scale locking into undeniable empirical equilibrium.",
+      "style_mode": "LOCKED_STAGE",
+      "background": "Locked archival parchment canvas with faint microfiche grid and double border keyline.",
+      "midground": "Stat card '68.4%' stamping down (STAMP) with an offset red marker keyline, beside ticker tags.",
+      "foreground": "Bold black condensed headline 'DIRECTIONAL ACCURACY' with a mustard annotation label 'VERIFIED PERFORMANCE DATA'.",
+      "company_style_components": [
+        "giant stat numbers",
+        "condensed bold headline caps",
+        "STAMP",
+        "offset red marker stroke",
+        "secondary mustard annotation"
+      ],
+      "vox_visual_components": [
+        "VOX_DATA_EXPLANATION",
+        "VOX_EDITORIAL_COLLAGE",
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "slow drift lateral",
+      "depth": "Locked stage depth: headline label Z: +150px, stat cards Z: 0px, archival backdrop Z: -300px.",
+      "lighting": "Crisp documentary studio light; subtle drop shadows beneath physical paper cards.",
+      "transition_in": "Heavy physical stamp landing from above onto the locked stage.",
+      "transformation": "TRANSFORMATION 4 (NETWORK TO DATA PROOF): Network resolves into heavy institutional proof cards stamping down; the decimal point in '68.4%' pulses, extruding a horizontal timeline ruler into the next scene.",
+      "transition_out": "Timeline ruler extends laterally across frame.",
+      "sound_events": [
+        "heavy stamp thud",
+        "acoustic stock exchange bell strike (440/880 Hz)",
+        "mechanical clock tick",
+        "quiet room tone"
+      ],
+      "approved_text": [
+        "68.4%",
+        "DIRECTIONAL ACCURACY",
+        "VERIFIED PERFORMANCE DATA",
+        "428 TICKERS INDEXED"
+      ],
+      "approved_numbers": [
+        "68.4% directional accuracy"
+      ]
+    },
+    {
+      "scene_id": "scene_06",
+      "start": 28.0,
+      "end": 34.0,
+      "narration": "With 14.6 hours of early warning lead. Seeing the institutional pivot before the candlestick breaks.",
+      "visual_argument": "A clock hand sweeps across a split candlestick chart, highlighting the 14.6-hour gap between crowd sentiment shift and eventual price breakdown.",
+      "visual_metaphor": "Seeing the flash of lightning long before the thunderclap arrives.",
+      "style_mode": "FLAT_PARALLAX",
+      "background": "Archival tan grid with 24-hour horizontal timeline ruler.",
+      "midground": "Candlestick chart layer where price collapse occurs 14.6 hours after the red sentiment vector triggers.",
+      "foreground": "Giant stat '14.6 HOURS' popping in with an ALERT_WASH and red underline swipe.",
+      "company_style_components": [
+        "giant stat numbers",
+        "ALERT_WASH",
+        "red underline swipes",
+        "aged-newsprint collage surface",
+        "one committed camera move"
+      ],
+      "vox_visual_components": [
+        "VOX_DATA_EXPLANATION",
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_VISUAL_METAPHOR",
+        "VOX_TRANSFORMATION",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "ride a path like a rail",
+      "depth": "Multi-layer parallax: foreground stat and clock hand Z: +180px, chart midground Z: 0px, timeline ruler Z: -200px.",
+      "lighting": "Riser sweep with brief 0.4s full-screen ALERT_WASH accentuating the divergence gap.",
+      "transition_in": "Timeline ruler glides seamlessly from decimal point extrusion.",
+      "transformation": "The 14.6-hour sentiment divergence arrow pivots 90 degrees to form the crosshair of the CrowdWisdom platform.",
+      "transition_out": "Crosshair zooms into center of trading interface.",
+      "sound_events": [
+        "rising air riser",
+        "alert wash deep sub thud",
+        "mechanical track rumble"
+      ],
+      "approved_text": [
+        "14.6 HOURS",
+        "EARLY WARNING LEAD",
+        "PREDICTIVE SENTIMENT PRECEDES PRICE MOVE"
+      ],
+      "approved_numbers": [
+        "14.6 hours early warning lead"
+      ]
+    },
+    {
+      "scene_id": "scene_07",
+      "start": 34.0,
+      "end": 40.0,
+      "narration": "From noise, to signal, to execution. You stop trading in the dark.",
+      "visual_argument": "The solitary trader from Scene 1 reappears, but now the chaotic red screens are replaced by clean, golden CrowdWisdom intelligence vectors; he executes calmly before the public breakout.",
+      "visual_metaphor": "The dark room filling with morning clarity and unshakeable conviction.",
+      "style_mode": "DEEP_DIORAMA",
+      "background": "Deep layered diorama of the trading room now illuminated by warm archival light and calm grid.",
+      "midground": "The trader cutout, steady and calm, pressing execution button with complete conviction.",
+      "foreground": "Floating editorial tags '+ALPHA', 'CONFIRMED SIGNAL', and gold convergence vector.",
+      "company_style_components": [
+        "halftone black-and-white cutout people",
+        "offset accent strokes",
+        "spring pop-ups",
+        "shallow depth of field",
+        "aged-print collage textures"
+      ],
+      "vox_visual_components": [
+        "VOX_VISUAL_ARGUMENT",
+        "VOX_MATCH_CUT",
+        "VOX_PHOTO_CUTOUT",
+        "VOX_PAYOFF",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "push-in",
+      "depth": "Deep 3D space: floating +ALPHA tags Z: +220px, steady trader subject Z: 0px, warm archival room background Z: -450px.",
+      "lighting": "Warm dawn amber lighting breaking through office blinds, replacing the cold cyan flicker.",
+      "transition_in": "Match-cut on crosshair centering onto trader's monitor.",
+      "transformation": "TRANSFORMATION 5 (SIGNAL TO PRODUCT & CTA): Execution button transforms smoothly into the CrowdWisdom platform seal.",
+      "transition_out": "Smooth push through into brand lockup.",
+      "sound_events": [
+        "clean keyboard enter key stroke",
+        "resonant chime resolve",
+        "paper slide",
+        "quiet room tone settling"
+      ],
+      "approved_text": [
+        "NOISE → SIGNAL → ACTION",
+        "EXECUTION ADVANTAGE",
+        "+ALPHA"
+      ],
+      "approved_numbers": []
+    },
+    {
+      "scene_id": "scene_08",
+      "start": 40.0,
+      "end": 45.0,
+      "narration": "CrowdWisdom Trading. See the signal inside the noise. Get access at crowdwisdomtrading.com.",
+      "visual_argument": "Brand lockup stage with authoritative typography, verified metrics seal, and website destination.",
+      "visual_metaphor": "The definitive institutional seal of truth resolving the 45-second inquiry.",
+      "style_mode": "LOCKED_STAGE",
+      "background": "Authoritative archival tan backdrop with subtle double keyline border and corner crosshairs.",
+      "midground": "Bold condensed typography 'CROWDWISDOM TRADING', offset red underline, 'crowdwisdomtrading.com'.",
+      "foreground": "Hot red domain pill button and stamped verified badge: '1.48M+ INPUTS • 68.4% ACCURACY • 14.6H LEAD'.",
+      "company_style_components": [
+        "condensed bold headline caps",
+        "offset red marker stroke",
+        "STAMP",
+        "archival tan palette",
+        "double keyline border"
+      ],
+      "vox_visual_components": [
+        "VOX_PAYOFF",
+        "VOX_KINETIC_TYPE",
+        "VOX_DATA_EXPLANATION",
+        "VOX_2_5D_CAMERA"
+      ],
+      "camera_move": "slow drift lateral",
+      "depth": "Locked architectural framing: verified badge and domain pill Z: +100px, brand lockup Z: 0px, archival wall Z: -200px.",
+      "lighting": "Balanced, warm editorial lighting; subtle drop shadow under CTA button.",
+      "transition_in": "Final brand seal settles with crisp tactile snap.",
+      "transformation": "Settle with subtle red keyline pulse (ALERT_WASH) before graceful fade to black.",
+      "transition_out": "Fade out to archival tan freeze frame.",
+      "sound_events": [
+        "final stamp hit",
+        "deep warm harmonic decay tone",
+        "clock tick fade"
+      ],
+      "approved_text": [
+        "CROWDWISDOM TRADING",
+        "SEE THE SIGNAL INSIDE THE NOISE",
+        "crowdwisdomtrading.com"
+      ],
+      "approved_numbers": [
+        "1,482,930 trader inputs",
+        "68.4% directional accuracy",
+        "14.6 hours early warning lead"
+      ]
+    }
+  ]
+}

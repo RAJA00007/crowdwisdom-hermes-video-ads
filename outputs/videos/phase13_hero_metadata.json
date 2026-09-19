@@ -1,0 +1,20 @@
+{
+  "status": "NO_ZERO_COST_AI_VIDEO_BACKEND",
+  "openmontage_installed": true,
+  "openmontage_path": "C:\\Users\\Raja\\OpenMontage",
+  "hardware_constraint": {
+    "gpu": "RTX 5060 Laptop (8GB VRAM)",
+    "ram": "16GB RAM"
+  },
+  "model": "NONE_VIABLE_ZERO_COST",
+  "backend": "NO_ZERO_COST_AI_VIDEO_BACKEND",
+  "provider": "openmontage",
+  "duration": 0.0,
+  "resolution": "1080x1920",
+  "reference_image_used": false,
+  "ai_video_generated": false,
+  "output_path": null,
+  "quality_gate": "HALTED_HARD_RULE",
+  "truthfulness_statement": "Adhering strictly to Phase 13 instructions: No fake video was generated with FFmpeg, no compositor animation was mislabeled as AI video, and no unviable multi-GB download was started.",
+  "timestamp": "2026-09-19T19:17:09.281070+00:00"
+}

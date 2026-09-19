@@ -1,0 +1,21 @@
+CrowdWisdomTrading Proprietary Market Intelligence & Alpha Signals
+===================================================================
+
+Institution: CrowdWisdomTrading Intelligence Labs
+Audit Window: Rolling 12-Month Historical Benchmark (2026.Q3)
+
+Core Ground-Truth Metrics:
+- Total Indexed Peer Trader Inputs: 1,482,930 verified data points
+- Universe Coverage: 428 unique US Equities (S&P 500, Nasdaq 100) & Options Flows
+- Crowd Consensus Directional Accuracy: 68.4%
+- Traditional Retail Directional Benchmark: 41.2%
+- Single Wall Street Analyst Consensus Benchmark: 52.8%
+- Directional Advantage vs Retail Benchmark: +27.2%
+- Sentiment Shift Early Warning Lead Time: 14.6 hours
+- False Breakout Detection Accuracy: 74.2%
+- Retail Panic Divergence Indicator Accuracy: 79.1%
+
+Verified Proprietary Signals:
+1. Crowd Conviction Score (CCS): Filters out noise traders by dynamically weighting predictions based on historical participant win rates.
+2. Retail Panic Inversion Index (RPII): Triggers contrarian buy signals when retail panic selling exceeds 2 standard deviations during intraday flushes.
+3. Lead-Time Sentiment Wave: Detects institutional positioning 14.6 hours prior to volume breakout expansions.

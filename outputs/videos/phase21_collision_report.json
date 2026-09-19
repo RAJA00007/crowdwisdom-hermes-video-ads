@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "total_samples_audited": 98,
+  "sampling_interval_sec": 0.5,
+  "forbidden_collisions_count": 0,
+  "forbidden_collisions": [],
+  "margin_violations_count": 0,
+  "margin_violations": []
+}

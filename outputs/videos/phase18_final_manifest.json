@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 18 Final Delivery",
+  "ad_title": "CrowdWisdomTrading - See The Signal Inside The Noise",
+  "final_video_path": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\final_cinematic_ad_phase18.mp4",
+  "duration_sec": 45.0,
+  "resolution": "1080x1920 (9:16)",
+  "fps": 30,
+  "format": "H.264 MP4",
+  "audio_loudness_lufs": -16.8,
+  "audio_true_peak_dbfs": -1.0,
+  "voice_overlaps": 0,
+  "production_mode": "cinematic_vox_explainer",
+  "ai_video_generation": false,
+  "verified_metrics": {
+    "trader_inputs": "1,482,930",
+    "directional_accuracy": "68.4%",
+    "early_warning_lead": "14.6 HOURS"
+  },
+  "scenes_count": 8,
+  "prerequisite_passed": true,
+  "status": "READY_FOR_SUBMISSION"
+}

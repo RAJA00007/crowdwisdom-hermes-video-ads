@@ -1,0 +1,12 @@
+{
+  "mode": "cinematic_licensed_footage",
+  "ai_video_generation": false,
+  "tier": 3,
+  "provider": "cinematic_licensed_compositor",
+  "backend": "ffmpeg_editorial_motion_compositor",
+  "reason": "No zero-cost AI video backend available without paid credits or exceeding 8GB VRAM",
+  "assignment_requirement": "30-60 second cinematic video advertisement",
+  "paid_services_used": false,
+  "truthfulness_statement": "Authentic licensed video footage and editorial motion design used. Not AI diffusion generated.",
+  "timestamp": "2026-09-19T19:46:36.507907+00:00"
+}

@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "style": "Cinematic Integrated Editorial Captions (Selective Word Emphasis)",
+  "captions": [
+    {
+      "scene": 1,
+      "start_time": 1.5,
+      "end_time": 3.2,
+      "text": "FIGHTING THE MARKET",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 1,
+      "start_time": 3.2,
+      "end_time": 5.4,
+      "text": "DROWNING IN NOISE",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 2,
+      "start_time": 6.2,
+      "end_time": 8.5,
+      "text": "HUNDREDS OF OPINIONS",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 2,
+      "start_time": 8.5,
+      "end_time": 11.4,
+      "text": "CONFLICTING CHARTS",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 3,
+      "start_time": 12.2,
+      "end_time": 16.5,
+      "text": "NOT ENOUGH SIGNAL.",
+      "style": "hero_headline_underline"
+    },
+    {
+      "scene": 3,
+      "start_time": 13.2,
+      "end_time": 15.0,
+      "text": "MORE DATA \u2260 CLARITY",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 3,
+      "start_time": 15.0,
+      "end_time": 16.5,
+      "text": "IT CREATES NOISE.",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 4,
+      "start_time": 17.0,
+      "end_time": 19.5,
+      "text": "NO GUESSWORK.",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 4,
+      "start_time": 19.5,
+      "end_time": 23.5,
+      "text": "COLLECTIVE INTELLIGENCE",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 5,
+      "start_time": 24.2,
+      "end_time": 27.2,
+      "text": "68.4% DIRECTIONAL ACCURACY",
+      "style": "hot_red_hero"
+    },
+    {
+      "scene": 5,
+      "start_time": 27.2,
+      "end_time": 30.0,
+      "text": "HISTORICALLY AUDITED",
+      "style": "mustard_pill"
+    },
+    {
+      "scene": 6,
+      "start_time": 30.8,
+      "end_time": 33.5,
+      "text": "SIGNAL FIRST",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 6,
+      "start_time": 33.5,
+      "end_time": 36.5,
+      "text": "PRICE MOVE LATER",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 7,
+      "start_time": 37.0,
+      "end_time": 39.5,
+      "text": "NOISE \u2192 SIGNAL \u2192 EXECUTION",
+      "style": "hot_red_pill"
+    },
+    {
+      "scene": 7,
+      "start_time": 39.5,
+      "end_time": 41.5,
+      "text": "STOP TRADING IN THE DARK",
+      "style": "card_integrated"
+    },
+    {
+      "scene": 8,
+      "start_time": 42.4,
+      "end_time": 46.0,
+      "text": "SEE THE SIGNAL INSIDE THE NOISE.",
+      "style": "hot_red_pill"
+    }
+  ]
+}

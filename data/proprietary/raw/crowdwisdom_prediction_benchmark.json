@@ -1,0 +1,43 @@
+{
+  "dataset_name": "CrowdWisdomTrading Proprietary Sentiment & Predictive Performance Benchmark",
+  "data_version": "2026.Q3",
+  "institution": "CrowdWisdomTrading Intelligence Labs",
+  "summary_metrics": {
+    "total_aggregated_trader_inputs": 1482930,
+    "unique_tracked_tickers": 428,
+    "crowd_consensus_directional_accuracy_pct": 68.4,
+    "traditional_retail_accuracy_pct": 41.2,
+    "single_analyst_consensus_accuracy_pct": 52.8,
+    "sentiment_shift_lead_time_hours": 14.6,
+    "false_breakout_detection_rate_pct": 74.2,
+    "retail_panic_divergence_indicator_accuracy_pct": 79.1
+  },
+  "asset_classes_covered": [
+    "US Equities (S&P 500 & Nasdaq 100)",
+    "Index Options Flow & Retail Sentiment Divergence",
+    "Sector Rotation Sentiment Indices"
+  ],
+  "sentiment_alpha_factors": [
+    {
+      "factor_name": "Crowd Conviction Score (CCS)",
+      "description": "Normalized weight of high-accuracy peer consensus vs noise traders",
+      "lead_indicator_window": "6h - 24h prior to volume breakout",
+      "historical_win_rate_differential": "+15.6% vs benchmark"
+    },
+    {
+      "factor_name": "Retail Noise Inversion Index (RNII)",
+      "description": "Contrarian signal triggered when crowd panic exceeds 2 standard deviations",
+      "mean_reversion_capture_rate_pct": 72.8
+    },
+    {
+      "factor_name": "Pre-Earnings Consensus Matrix",
+      "description": "Multi-source crowd predictive alignment for quarterly earnings volatility",
+      "directional_bias_accuracy_pct": 66.7
+    }
+  ],
+  "provenance": {
+    "collection_method": "Real-time weighted crowd polling, options sentiment ingestion, and retail conviction indexing",
+    "audit_period": "Past 12 months (updated rolling 30 days)",
+    "verified_by": "CrowdWisdom Quantitative Analytics System"
+  }
+}

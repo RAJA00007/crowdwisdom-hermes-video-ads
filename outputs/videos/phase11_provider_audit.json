@@ -1,0 +1,110 @@
+{
+  "status": "AI_VIDEO_PROVIDER_UNAVAILABLE",
+  "message": "STOP PRODUCTION: No real AI-video provider is configured with credentials or local binary. Phase 11 strictly prohibits silently substituting compositor renders as cinematic AI video.",
+  "ai_video_generated": false,
+  "active_primary_provider": null,
+  "configured_ai_providers": [],
+  "hero_test_status": "SKIPPED_NO_PROVIDER",
+  "production_halted": true,
+  "hierarchy_status": {
+    "hierarchy": [
+      "openmontage",
+      "hyperframes",
+      "leronx",
+      "fallback_editorial_compositor"
+    ],
+    "extended_hierarchy": [
+      "openmontage",
+      "hyperframes",
+      "leronx",
+      "runway",
+      "veo",
+      "replicate",
+      "luma",
+      "kling",
+      "pika",
+      "fallback_editorial_compositor"
+    ],
+    "openmontage_status": "OPENMONTAGE_NOT_CONFIGURED",
+    "active_primary_provider": "fallback_editorial_compositor",
+    "fallback_engaged": true,
+    "has_real_ai_provider": false,
+    "configured_ai_providers": [],
+    "provider_statuses": [
+      {
+        "provider": "openmontage",
+        "configured": false,
+        "status": "OPENMONTAGE_NOT_CONFIGURED",
+        "has_api_key": false,
+        "has_bin_path": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "hyperframes",
+        "configured": false,
+        "status": "HYPERFRAMES_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "leronx",
+        "configured": false,
+        "status": "LERONX_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "runway",
+        "configured": false,
+        "status": "RUNWAY_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "veo",
+        "configured": false,
+        "status": "VEO_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "replicate",
+        "configured": false,
+        "status": "REPLICATE_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "luma",
+        "configured": false,
+        "status": "LUMA_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "kling",
+        "configured": false,
+        "status": "KLING_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "pika",
+        "configured": false,
+        "status": "PIKA_NOT_CONFIGURED",
+        "has_api_key": false,
+        "supports_image_reference": true
+      },
+      {
+        "provider": "fallback_editorial_compositor",
+        "configured": true,
+        "status": "CONFIGURED",
+        "is_local_fallback": true,
+        "supports_image_reference": false,
+        "note": "Deterministic paper diorama compositor reproducing company reference with authentic halftone dot screening, cut-paper layers, and verified typography."
+      }
+    ]
+  },
+  "timestamp": "2026-09-19T17:26:25.062726+00:00",
+  "instructions_to_enable": "To enable real AI video generation, set one of the following environment variables in .env:\n- OPENMONTAGE_API_KEY or OPENMONTAGE_BIN_PATH\n- HYPERFRAMES_API_KEY\n- LERONX_API_KEY\n- RUNWAY_API_KEY\n- VEO_API_KEY\n- REPLICATE_API_TOKEN\n- LUMA_API_KEY\n- KLING_API_KEY\n- PIKA_API_KEY"
+}

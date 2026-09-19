@@ -1,0 +1,119 @@
+{
+  "project": "CrowdWisdomTrading Phase 9 Official Art-Direction Video Ads",
+  "title": "THE SIGNAL BEFORE THE MOVE",
+  "editorial_style": "Documentary Paper Diorama (Vox Style Master Sheet)",
+  "reference_source": "assets/style_reference/company_art_direction.png",
+  "total_duration_sec": 45.0,
+  "color_palette": {
+    "archival_tan": "#C9BB9C",
+    "ink_black": "#1A1A1A",
+    "halftone_gray": "#8C8C8C",
+    "hot_red": "#D62E1F",
+    "mustard": "#D9A441"
+  },
+  "asset_briefs": [
+    {
+      "scene_id": 1,
+      "beat_id": 1,
+      "beat_name": "The Hook: 2:17 AM Alone",
+      "asset_type": "paper_diorama_cutout",
+      "subject": "Halftone trader cutout alone at 2:17 AM on aged map background",
+      "construction": "Halftone dot texture + rough white keyline + offset Hot Red stroke (+12px) + paper shadow",
+      "duration": 4.0,
+      "visual_purpose": "Establish tactile paper diorama hook and human emotional vulnerability",
+      "source_asset": "data/assets/cinematic/scene_01_trader_217am.jpg",
+      "character_id": "trader_char_01"
+    },
+    {
+      "scene_id": 2,
+      "beat_id": 2,
+      "beat_name": "Information Overload Montage",
+      "asset_type": "paper_diorama_montage",
+      "subject": "Archival photo cards, ticker strips, newspaper columns, red arrows",
+      "construction": "Physical paper cards sliding in staggered sequence, clean controlled text only",
+      "duration": 5.0,
+      "visual_purpose": "Demonstrate information overload through physical collage layers",
+      "source_asset": "tools/editorial_compositor.py::render_beat2_montage",
+      "character_id": null
+    },
+    {
+      "scene_id": 3,
+      "beat_id": 3,
+      "beat_name": "The Problem: Freeze & Kinetic Typography",
+      "asset_type": "paper_typography_freeze",
+      "subject": "Plain archival tan paper stage with giant condensed typography and red underline swipe",
+      "construction": "Ink black bold condensed typography (#1A1A1A) with Hot Red underline (#D62E1F)",
+      "duration": 4.0,
+      "visual_purpose": "Deliver the core thesis with uncompromising editorial clarity",
+      "source_asset": "tools/editorial_compositor.py::render_beat3_problem_typography",
+      "character_id": null
+    },
+    {
+      "scene_id": 4,
+      "beat_id": 4,
+      "beat_name": "The Crowd: Chaos to Conviction",
+      "asset_type": "paper_diorama_crowd_consensus",
+      "subject": "Halftone trader cutouts linked by taut red threads converging into giant stat card",
+      "construction": "Faded ledger background, red thread vector lines, printed 1,482,930 card",
+      "duration": 6.0,
+      "visual_purpose": "Explain how CrowdWisdom extracts signal from collective noise",
+      "source_asset": "tools/editorial_compositor.py::render_beat4_crowd_signal",
+      "character_id": null
+    },
+    {
+      "scene_id": 5,
+      "beat_id": 5,
+      "beat_name": "The Proof: One Fact at a Time",
+      "asset_type": "paper_diorama_data_proof",
+      "subject": "Printed directional chart (68.4%) and timeline waveform (14.6h lead)",
+      "construction": "Printed paper cards, TICK_UP animation, red arrow lead indicator",
+      "duration": 8.0,
+      "visual_purpose": "Present verified proprietary CrowdWisdom performance benchmarks",
+      "source_asset": "tools/editorial_compositor.py::render_beat5_data_proof",
+      "character_id": null
+    },
+    {
+      "scene_id": 6,
+      "beat_id": 6,
+      "beat_name": "The Signal: Order from Chaos",
+      "asset_type": "paper_diorama_signal_resolve",
+      "subject": "Exact same halftone trader cutout with printed screen and red signal path",
+      "construction": "Halftone trader (trader_char_01) + ALERT_WASH single Hot Red flood",
+      "duration": 7.0,
+      "visual_purpose": "Emotional resolution and demonstration of clarity over noise",
+      "source_asset": "data/assets/cinematic/scene_06_trader_calm.jpg",
+      "character_id": "trader_char_01"
+    },
+    {
+      "scene_id": 7,
+      "beat_id": 7,
+      "beat_name": "Product: Sentiment Radar Feature",
+      "asset_type": "paper_diorama_product_card",
+      "subject": "CrowdWisdom Sentiment Early-Warning Radar interface inside paper card frame",
+      "construction": "Real product screenshot in archival tan paper card with shadow and CROWD CONVICTION label",
+      "duration": 6.0,
+      "visual_purpose": "Demonstrate authentic proprietary platform capabilities",
+      "source_asset": "data/assets/cinematic/scene_07_product_radar.jpg",
+      "character_id": null
+    },
+    {
+      "scene_id": 8,
+      "beat_id": 8,
+      "beat_name": "CTA: See the Signal",
+      "asset_type": "paper_diorama_brand_cta",
+      "subject": "Clean archival paper stage with brand lockup and URL",
+      "construction": "Ink black typography, Hot Red underline, subtle paper grain, 2% camera drift",
+      "duration": 5.0,
+      "visual_purpose": "Deliver authoritative call to action and memorable brand finish",
+      "source_asset": "tools/editorial_compositor.py::render_beat8_minimal_cta",
+      "character_id": null
+    }
+  ],
+  "character_consistency": {
+    "recurring_character_id": "trader_char_01",
+    "opening_beat": 1,
+    "payoff_beat": 6,
+    "identity_match_verified": true,
+    "environmental_match_verified": true
+  }
+}

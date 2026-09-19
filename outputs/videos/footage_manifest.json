@@ -1,0 +1,47 @@
+[
+  {
+    "asset_id": "beat_01_night_window_webm",
+    "source": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Raindrops_against_the_window_in_the_night_city%2C_Las_Palmas.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "description": "Raindrops against the window in the night city, Las Palmas",
+    "used_in_scene": "beat_01",
+    "local_path": "outputs\\videos\\raw_footage\\beat_01_night_window.webm"
+  },
+  {
+    "asset_id": "beat_02_typing_ogv",
+    "source": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Typing_example.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "description": "Typing example",
+    "used_in_scene": "beat_02",
+    "local_path": "outputs\\videos\\raw_footage\\beat_02_typing.ogv"
+  },
+  {
+    "asset_id": "beat_03_monitor_ogv",
+    "source": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Typing_example.ogv",
+    "license": "CC BY-SA 3.0",
+    "description": "Information and text data lines flowing across the terminal screen",
+    "used_in_scene": "beat_03",
+    "local_path": "outputs\\videos\\raw_footage\\beat_03_monitor.ogv"
+  },
+  {
+    "asset_id": "beat_04_crowd_webm",
+    "source": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Traffic-Instabilities-in-Self-Organized-Pedestrian-Crowds-pcbi.1002442.s004.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.5",
+    "description": "Traffic-Instabilities-in-Self-Organized-Pedestrian-Crowds-pcbi.1002442.s004",
+    "used_in_scene": "beat_04",
+    "local_path": "outputs\\videos\\raw_footage\\beat_04_crowd.webm"
+  },
+  {
+    "asset_id": "beat_05_exchange_webm",
+    "source": "Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Philippine_Stock_Exchange%2C_Inc._Bell_Ringing_Ceremony_-_8000_PSEI_mark_-_14_April_2015.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "description": "Philippine Stock Exchange, Inc. Bell Ringing Ceremony - 8000 PSEI mark - 14 April 2015",
+    "used_in_scene": "beat_05",
+    "local_path": "outputs\\videos\\raw_footage\\beat_05_exchange.webm"
+  }
+]

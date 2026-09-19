@@ -1,0 +1,89 @@
+# ==============================================================================
+# Git Ignore Configuration - CrowdWisdom Video Ads
+# ==============================================================================
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python artifacts & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output & Generated Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/research/*
+!data/research/.gitkeep
+outputs/ads/*
+!outputs/ads/.gitkeep
+outputs/scripts/*
+!outputs/scripts/.gitkeep
+
+# Large Binaries, Raw Footage & Intermediate Video Renders (>100MB Exclusions)
+outputs/videos/raw_footage/
+*.webm
+*.ogv
+outputs/videos/p14_beats/
+outputs/videos/p17_beats/
+outputs/videos/p18_scenes/
+outputs/videos/temp_*/
+outputs/videos/temp_*.mp4
+outputs/videos/concept_*/
+outputs/videos/generated_clips/
+outputs/videos/vox_cinematic_style_test.mp4
+outputs/videos/vox_motion_proof_v2.mp4
+outputs/videos/style_test_*.mp4
+outputs/videos/editorial_test_*.mp4
+outputs/videos/phase*/
+outputs/videos/style_test*/
+outputs/videos/final_cinematic_ad.mp4
+outputs/videos/final_cinematic_ad_phase10.mp4
+outputs/videos/final_cinematic_ad_phase14.mp4
+outputs/videos/final_cinematic_ad_phase18.mp4
+outputs/videos/final_cinematic_ad_phase19.mp4
+outputs/videos/final_cinematic_ad_phase20.mp4
+outputs/videos/final_cinematic_ad_phase21.mp4
+
+# Preserved Master Video Ad & Verification Deliverables
+!outputs/videos/final_cinematic_ad_phase22.mp4
+!outputs/videos/phase22_cleanup_report.json
+!outputs/videos/p22_frame_*.png
+!outputs/videos/.gitkeep
+
+# System & OS
+.DS_Store
+Thumbs.db

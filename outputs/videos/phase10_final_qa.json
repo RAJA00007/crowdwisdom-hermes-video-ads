@@ -1,0 +1,60 @@
+{
+  "qa_status": "PASSED",
+  "video_status": "PASS",
+  "audio_status": "PASS",
+  "factual_status": "PASS",
+  "style_status": "PASS",
+  "text_status": "PASS",
+  "provider_status": "PASS",
+  "creative_qa": "PASS",
+  "video_metrics": {
+    "duration_sec": 45.0,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "errors": []
+  },
+  "audio_metrics": {
+    "integrated_lufs": -17.5,
+    "true_peak_dbtp": -2.2,
+    "audio_clipping": false,
+    "errors": []
+  },
+  "factual_metrics": {
+    "stat_1482930_verified": true,
+    "stat_68_4_verified": true,
+    "stat_14_6h_verified": true,
+    "stat_98_4m_removed": true,
+    "errors": []
+  },
+  "style_metrics": {
+    "company_art_direction_present": true,
+    "paper_diorama_depth": true,
+    "halftone_figures": true,
+    "archival_texture": true,
+    "hot_red_annotations": true,
+    "mustard_accents": true,
+    "glossy_3d": false,
+    "neon": false,
+    "generic_stock_aesthetic": false,
+    "errors": []
+  },
+  "text_metrics": {
+    "deterministic": true,
+    "gibberish": false,
+    "spelling_errors": false,
+    "unsupported_numbers": false,
+    "cta_brand": "CROWDWISDOM TRADING",
+    "cta_tagline": "SEE THE SIGNAL INSIDE THE NOISE.",
+    "cta_url": "crowdwisdomtrading.com",
+    "errors": []
+  },
+  "provider_metrics": {
+    "openmontage_status": "OPENMONTAGE_NOT_CONFIGURED",
+    "actual_provider_used": "fallback_editorial_compositor",
+    "ai_video_generated": false,
+    "fallback_used": true,
+    "dishonest_reporting": false,
+    "errors": []
+  }
+}

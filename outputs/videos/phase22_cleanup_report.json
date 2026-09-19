@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "phase": 22,
+  "cleanup_summary": {
+    "top_market_ticker_removed": true,
+    "fig_labels_removed_count": 6,
+    "fig_labels_removed": [
+      "FIG. 01 \u2022 NOCTURNAL TRADING \u2022 GLOBAL LIQUIDITY",
+      "FIG. 02 \u2022 THE SIGNAL GAP",
+      "FIG. 03 \u2022 DISTRIBUTED COLLECTIVE MESH",
+      "FIG. 04 \u2022 EMPIRICAL DIRECTIONAL VALIDATION",
+      "FIG. 05 \u2022 EARLY DETECTION TIMELINE DIVERGENCE",
+      "FIG. 06 \u2022 SYSTEMATIC DECISION RADAR"
+    ],
+    "fighting_the_market_text_removed": true,
+    "opening_composition_refined": {
+      "top": "Clean archival paper & grid texture (no ticker/debug markers)",
+      "upper_middle": "Small subtle [\u25cf 2:17 AM] nocturnal time badge (y=-480)",
+      "center": "Halftone solitary trader cutout (enters solitary at t=0.0s, y=140)",
+      "middle_arrival": "Order flow news & candlestick chart arrive around trader (t=1.2s - 2.1s)",
+      "drowning_in_noise_caption": "Appears at t=3.6s in clean upper negative space (y=-300)"
+    },
+    "stale_metrics_audited_and_purged": {
+      "26613_intermediate_counter": "ELIMINATED (counter now rolls in 0.5s flat and locks permanently onto approved 1,482,930 by t=18.0s)",
+      "1420_new_posts_min": "REMOVED (replaced with 'UNFILTERED SOCIAL VOLUME')"
+    },
+    "approved_numerical_claims_verified": [
+      "1,482,930 trader inputs",
+      "68.4% directional accuracy",
+      "14.6 hours early warning lead",
+      "2:17 AM narrative anchor"
+    ]
+  },
+  "collision_check": {
+    "status": "PASS",
+    "forbidden_collisions_count": 0,
+    "margin_violations_count": 0
+  },
+  "final_duration": 48.5,
+  "audio_endpoint_check": {
+    "speech_finish_sec": 47.41,
+    "video_duration_sec": 48.5,
+    "breathing_room_tail_sec": 1.09,
+    "safety_margin_compliant": true,
+    "truncation_detected": false,
+    "full_company_name_spoken": "CrowdWisdom... Trading (complete)",
+    "website_spoken": "crowdwisdomtrading.com (complete)"
+  },
+  "technical_specs": {
+    "resolution": "1080x1920",
+    "framerate": 30.0,
+    "video_codec": "H.264 (libx264, yuv420p)",
+    "audio_codec": "AAC stereo 44.1kHz 192kbps",
+    "file_size_bytes": 3916346
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "concept": "The Signal Inside The Noise: A Vox Visual Journalism Investigation",
+  "hook": "At 2:17 AM, a lone trader sits in the dark. The screen flashes red.",
+  "target_icp": "Active retail momentum and options traders battling emotional decision fatigue, noise overload, and nocturnal uncertainty",
+  "pain_point": "Drowning in 14,000 alerts per minute, second-guessing trades at 2:17 AM, and missing the true signal before sudden market reversals",
+  "core_insight": "Traders don't have an information problem\u2014they have a signal problem. Aggregating 1,482,930 collective trader inputs unlocks 68.4% directional accuracy and 14.6 hours early warning lead.",
+  "narration": "At 2:17 AM, a lone trader sits in the dark. The screen flashes red. Traders don't have an information problem. They are drowning in fourteen thousand alerts a minute. They have a signal problem. When every feed screams panic, where is the truth? CrowdWisdom doesn't guess. It indexes 1,482,930 trader inputs in real time across the globe. Delivering 68.4% directional accuracy\u2014tested, verified, and proven across four hundred twenty-eight tickers. With a 14.6 hours early warning lead. That means seeing the institutional pivot before the candlestick breaks. From noise, to signal, to execution. You stop trading in the dark. CrowdWisdom Trading. See the signal inside the noise. Get access at crowdwisdomtrading.com.",
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "start": 0,
+      "end": 5,
+      "narration": "At 2:17 AM, a lone trader sits in the dark. The screen flashes red.",
+      "visual_argument": "A solitary trader isolated in a dark void while market monitors flash alert warnings.",
+      "visual_metaphor": "A solitary human island surrounded by an ocean of nocturnal market volatility.",
+      "company_style": "Locked stage archival tan and charcoal grid, B&W halftone cutout trader with rough white keyline and offset red marker shadow.",
+      "camera": "Slow creeping push-in on trader's eyes reflecting red market alerts.",
+      "transition": "Cut on red flash with flashing colon ':' morphing into terminal cursor.",
+      "sound": "Sub-bass pulse, mechanical clock tick, deep room hum."
+    },
+    {
+      "scene_id": "scene_02",
+      "start": 5,
+      "end": 10,
+      "narration": "Traders don't have an information problem. They are drowning in fourteen thousand alerts a minute.",
+      "visual_argument": "Information physically overwhelms the trader, stacking endless layers of text, charts, and news clips until the screen is choked with noise.",
+      "visual_metaphor": "A suffocating blizzard of financial paperwork burying the trader.",
+      "company_style": "Deep diorama with aged financial newspaper columns, popping alert cards with spring overshoot, and flying red warning tags.",
+      "camera": "Pulls backward fast through three layers of dense paper cutouts as they multiply.",
+      "transition": "Torn newspaper edge becomes a jagged red trendline.",
+      "sound": "Rapid paper rustle, accelerating ticks, data hiss."
+    },
+    {
+      "scene_id": "scene_03",
+      "start": 10,
+      "end": 15,
+      "narration": "They have a signal problem. When every feed screams panic, where is the truth?",
+      "visual_argument": "All conflicting arrows, charts, and headlines suddenly collapse toward one central point of focus, exposing the emptiness of the noise.",
+      "visual_metaphor": "Noise collapsing into a singular gravity well.",
+      "company_style": "Flat parallax on muted archival tan canvas with faded grid, bold condensed type, and hot-red marker underline.",
+      "camera": "Fast lateral track then hard stop with overshoot (COUNTER_SLAM).",
+      "transition": "Red marker underline pulls tight like a thread (THREAD_PULL) and snaps into a horizontal baseline coordinate.",
+      "sound": "Rubber creak, counter slam thud, abrupt silence drop."
+    },
+    {
+      "scene_id": "scene_04",
+      "start": 15,
+      "end": 21,
+      "narration": "CrowdWisdom doesn't guess. It indexes 1,482,930 trader inputs in real time across the globe.",
+      "visual_argument": "Hundreds of individual trader cutouts light up across a tactile paper map, each feeding a red signal thread into a central convergence hub.",
+      "visual_metaphor": "Thousands of human whispers aggregating into a single resounding voice.",
+      "company_style": "Deep diorama with archival topographic map, B&W halftone cutouts of traders across global capitals, and giant stat numbers.",
+      "camera": "Dives through the topographic map layer, orbiting a quarter turn to reveal network depth.",
+      "transition": "The last digit '0' expands outward into a circular radar scope.",
+      "sound": "Submerge whoosh, mechanical counter ticks (TICK_UP), paper pops."
+    },
+    {
+      "scene_id": "scene_05",
+      "start": 21,
+      "end": 28,
+      "narration": "Delivering 68.4% directional accuracy\u2014tested, verified, and proven across four hundred twenty-eight tickers.",
+      "visual_argument": "A giant dual-card statistical proof stage comparing CrowdWisdom's 68.4% accuracy directly against market noise.",
+      "visual_metaphor": "A precision balance scale locking into undeniable equilibrium.",
+      "company_style": "Locked stage archival canvas with giant stat card stamping down (STAMP) with offset red marker keyline.",
+      "camera": "Subtle slow drift lateral, maintaining locked architectural stability.",
+      "transition": "The decimal point in 68.4% pulses, extruding a horizontal timeline ruler into the next scene.",
+      "sound": "Heavy stamp thud, paper snap, clock tick."
+    },
+    {
+      "scene_id": "scene_06",
+      "start": 28,
+      "end": 34,
+      "narration": "With a 14.6 hours early warning lead. That means seeing the institutional pivot before the candlestick breaks.",
+      "visual_argument": "A clock hand sweeps across a split candlestick chart, highlighting the 14.6-hour gap between crowd sentiment shift and price collapse.",
+      "visual_metaphor": "Seeing the thunderclap long before the rain falls.",
+      "company_style": "Flat parallax with 24-hour timeline ruler, candlestick chart layer, and giant mustard annotation.",
+      "camera": "Fast lateral track along the timeline, locking onto the divergence gap.",
+      "transition": "The sentiment divergence arrow pivots 90 degrees to form the crosshair of the platform.",
+      "sound": "Riser sweep, alert wash thud, track rumble."
+    },
+    {
+      "scene_id": "scene_07",
+      "start": 34,
+      "end": 39,
+      "narration": "From noise, to signal, to execution. You stop trading in the dark.",
+      "visual_argument": "The solitary trader from 2:17 AM reappears, but now the chaotic red screens are replaced by clean, golden CrowdWisdom intelligence vectors.",
+      "visual_metaphor": "The dark room filling with morning clarity.",
+      "company_style": "Deep diorama trading room illuminated by warm archival light, calm trader cutout, floating +ALPHA tags.",
+      "camera": "Slow push-in past foreground floating tags directly to the calm trader.",
+      "transition": "The execution button transforms into the CrowdWisdom seal lockup.",
+      "sound": "Clean resonant chime, room tone settling, paper pop."
+    },
+    {
+      "scene_id": "scene_08",
+      "start": 39,
+      "end": 45,
+      "narration": "CrowdWisdom Trading. See the signal inside the noise. Get access at crowdwisdomtrading.com.",
+      "visual_argument": "Brand lockup stage with authoritative typography, verified metrics seal, and website destination.",
+      "visual_metaphor": "The definitive institutional seal of truth.",
+      "company_style": "Locked stage archival tan backdrop with double keyline border, bold condensed typography, offset red underline.",
+      "camera": "Locked stage with subtle millimeter drift.",
+      "transition": "Settle with red keyline pulse (ALERT_WASH).",
+      "sound": "Final stamp hit, deep warm decay tone."
+    }
+  ]
+}

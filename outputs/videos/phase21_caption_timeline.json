@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "source": "actual_spoken_narration_timing",
+  "captions": [
+    {
+      "caption_id": "cap_s1_a",
+      "start": 1.8,
+      "end": 3.6,
+      "text": "FIGHTING THE MARKET",
+      "emphasis_word": "FIGHTING",
+      "position": "top_center (y=-380)",
+      "animation": "scale_spring_overshoot"
+    },
+    {
+      "caption_id": "cap_s1_b",
+      "start": 3.6,
+      "end": 5.8,
+      "text": "DROWNING IN NOISE",
+      "emphasis_word": "DROWNING",
+      "position": "top_center (y=-380)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s2_a",
+      "start": 6.8,
+      "end": 9.0,
+      "text": "HUNDREDS OF OPINIONS",
+      "emphasis_word": "OPINIONS",
+      "position": "lower_third (y=560)",
+      "animation": "card_spring_overshoot"
+    },
+    {
+      "caption_id": "cap_s2_b",
+      "start": 9.0,
+      "end": 11.5,
+      "text": "CONFLICTING CHARTS",
+      "emphasis_word": "CONFLICTING",
+      "position": "lower_third (y=560)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s3_hero",
+      "start": 12.2,
+      "end": 17.2,
+      "text": "NOT ENOUGH SIGNAL.",
+      "emphasis_word": "SIGNAL",
+      "position": "center (y=-140)",
+      "animation": "hero_headline_underline"
+    },
+    {
+      "caption_id": "cap_s3_a",
+      "start": 12.6,
+      "end": 14.5,
+      "text": "MORE DATA \u2260 CLARITY",
+      "emphasis_word": "CLARITY",
+      "position": "lower_center (y=280)",
+      "animation": "card_slide_up"
+    },
+    {
+      "caption_id": "cap_s3_b",
+      "start": 14.5,
+      "end": 17.0,
+      "text": "IT CREATES NOISE.",
+      "emphasis_word": "NOISE",
+      "position": "lower_center (y=280)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s4_a",
+      "start": 17.2,
+      "end": 19.8,
+      "text": "NO GUESSWORK.",
+      "emphasis_word": "GUESSWORK",
+      "position": "top_center (y=-420)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s4_b",
+      "start": 19.8,
+      "end": 24.2,
+      "text": "COLLECTIVE INTELLIGENCE",
+      "emphasis_word": "COLLECTIVE",
+      "position": "top_center (y=-420)",
+      "animation": "card_integrated"
+    },
+    {
+      "caption_id": "cap_s5_a",
+      "start": 24.8,
+      "end": 28.0,
+      "text": "68.4% DIRECTIONAL ACCURACY",
+      "emphasis_word": "68.4%",
+      "position": "top_center (y=-420)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s5_b",
+      "start": 28.0,
+      "end": 30.8,
+      "text": "HISTORICALLY AUDITED",
+      "emphasis_word": "AUDITED",
+      "position": "top_center (y=-420)",
+      "animation": "mustard_pill_pop"
+    },
+    {
+      "caption_id": "cap_s6_a",
+      "start": 31.2,
+      "end": 34.0,
+      "text": "SIGNAL FIRST",
+      "emphasis_word": "SIGNAL",
+      "position": "top_center (y=-420)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s6_b",
+      "start": 34.0,
+      "end": 37.0,
+      "text": "PRICE MOVE LATER",
+      "emphasis_word": "LATER",
+      "position": "top_center (y=-420)",
+      "animation": "card_integrated"
+    },
+    {
+      "caption_id": "cap_s7_a",
+      "start": 37.5,
+      "end": 39.8,
+      "text": "NOISE \u2192 SIGNAL \u2192 EXECUTION",
+      "emphasis_word": "EXECUTION",
+      "position": "top_center (y=-420)",
+      "animation": "hot_red_pill_pop"
+    },
+    {
+      "caption_id": "cap_s7_b",
+      "start": 39.8,
+      "end": 41.5,
+      "text": "STOP TRADING IN THE DARK",
+      "emphasis_word": "DARK",
+      "position": "top_center (y=-420)",
+      "animation": "card_integrated"
+    },
+    {
+      "caption_id": "cap_s8",
+      "start": 43.4,
+      "end": 47.8,
+      "text": "SEE THE SIGNAL INSIDE THE NOISE.",
+      "emphasis_word": "SIGNAL",
+      "position": "lower_third (y=560)",
+      "animation": "hot_red_pill_pop"
+    }
+  ]
+}

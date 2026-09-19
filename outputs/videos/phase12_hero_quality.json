@@ -1,0 +1,15 @@
+{
+  "evaluated_at": "2026-09-19T19:00:09.297454+00:00",
+  "hero_video": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\outputs\\videos\\phase12_hero_test.mp4",
+  "contact_sheet": null,
+  "quality_gate": "FAIL",
+  "failure_reason": "FAL API rejected generation request with HTTP 403: User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.. The account associated with FAL_KEY has an exhausted balance (is_locked=True). Strictly obeying instructions: No fallback FFmpeg animation was generated.",
+  "criteria": {
+    "credential_authenticated": true,
+    "models_enumerated": true,
+    "prompt_architecture_valid": true,
+    "reference_image_configured": true,
+    "api_credits_available": false,
+    "real_ai_video_generated": false
+  }
+}

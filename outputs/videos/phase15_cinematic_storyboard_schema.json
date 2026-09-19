@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase15CinematicStoryboardSchema",
+  "description": "Authoritative schema for Phase 15 Cinematic Vox Visual Journalism Storyboards combining Vox storytelling grammar with Company Paper Diorama art direction.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "title",
+    "target_runtime_seconds",
+    "creative_system",
+    "scenes"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": ["phase15.vox.1.0"]
+    },
+    "project": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "target_runtime_seconds": {
+      "type": "number",
+      "minimum": 30,
+      "maximum": 60
+    },
+    "creative_system": {
+      "type": "object",
+      "required": ["system_a_company_art", "system_b_vox_grammar", "system_c_research_story"],
+      "properties": {
+        "system_a_company_art": { "type": "string" },
+        "system_b_vox_grammar": { "type": "string" },
+        "system_c_research_story": { "type": "string" }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "scene_id",
+          "start",
+          "end",
+          "narration",
+          "visual_argument",
+          "visual_metaphor",
+          "style_mode",
+          "background",
+          "midground",
+          "foreground",
+          "company_style_components",
+          "vox_visual_components",
+          "camera_move",
+          "depth",
+          "transition_in",
+          "transformation",
+          "transition_out",
+          "sound_events",
+          "approved_text",
+          "approved_numbers"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string",
+            "description": "Unique scene identifier (e.g. scene_01)"
+          },
+          "start": {
+            "type": "number",
+            "description": "Scene start timestamp in seconds"
+          },
+          "end": {
+            "type": "number",
+            "description": "Scene end timestamp in seconds"
+          },
+          "narration": {
+            "type": "string",
+            "description": "Exact voiceover narration sentence for this beat"
+          },
+          "visual_argument": {
+            "type": "string",
+            "description": "Editorial visual demonstration proving the narration claim (non-negotiable Vox core rule)"
+          },
+          "visual_metaphor": {
+            "type": "string",
+            "description": "Concrete visual analogy representing an abstract market concept"
+          },
+          "style_mode": {
+            "type": "string",
+            "enum": ["DEEP_DIORAMA", "FLAT_PARALLAX", "LOCKED_STAGE"],
+            "description": "Dynamic company art direction mode serving the narration need"
+          },
+          "background": {
+            "type": "string",
+            "description": "Deepest Z-layer: archival maps, newsprint grids, textured parchment"
+          },
+          "midground": {
+            "type": "string",
+            "description": "Core subject layer: B&W halftone cutouts, white keylines, offset red marker strokes"
+          },
+          "foreground": {
+            "type": "string",
+            "description": "Front Z-layer: giant stat numbers, editorial tags, flying fragments crossing lens"
+          },
+          "company_style_components": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Preserved company art direction materials (halftone cutouts, archival paper, red strokes, etc.)"
+          },
+          "vox_visual_components": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Active Vox concepts in this scene (VOX_HOOK, VOX_INFORMATION_BUILD, etc.)"
+          },
+          "camera_move": {
+            "type": "string",
+            "description": "One committed cinematic camera movement per clip through 2.5D space"
+          },
+          "depth": {
+            "type": "string",
+            "description": "2.5D Z-depth staging and parallax cues (foreground, midground, background planes)"
+          },
+          "transition_in": {
+            "type": "string",
+            "description": "Inbound transition into scene"
+          },
+          "transformation": {
+            "type": "string",
+            "description": "Visual transformation linking one visual element into the next for continuous flow"
+          },
+          "transition_out": {
+            "type": "string",
+            "description": "Outbound transition or match-cut into subsequent beat"
+          },
+          "sound_events": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Diegetic and editorial sound punctuation (paper pops, thwips, stamps, ticks, risers)"
+          },
+          "approved_text": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "On-screen typographic labels and headlines"
+          },
+          "approved_numbers": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Factually verified numbers (only 1,482,930, 68.4%, 14.6 hours, or narrative 2:17 AM)"
+          }
+        }
+      }
+    }
+  }
+}

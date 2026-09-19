@@ -1,0 +1,16 @@
+{
+  "status": "POLISHED",
+  "provider": "edge_neural_tts",
+  "voice_model": "en-US-ChristopherNeural",
+  "sample_rate_hz": 44100,
+  "processing_chain": [
+    "highpass=f=80 (Removes rumble)",
+    "equalizer=f=250:t=q:w=1.2:g=-1.5 (Cleans mud)",
+    "equalizer=f=3000:t=q:w=1.5:g=2.0 (Adds vocal air and intelligibility)",
+    "atempo dynamic pacing (1.10 - 1.18x per sentence)",
+    "loudnorm=I=-16.0:TP=-1.0:LRA=7.0 (Broadcast EBU R128 standard)"
+  ],
+  "loudness_target_lufs": -16.0,
+  "true_peak_dbtp": -1.0,
+  "clipping_detected": false
+}

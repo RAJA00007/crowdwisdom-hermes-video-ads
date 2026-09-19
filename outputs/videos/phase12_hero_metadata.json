@@ -1,0 +1,56 @@
+{
+  "actual_fal_model": "fal-ai/kling-video/v1.5/pro/image-to-video",
+  "actual_openmontage_backend": "kling_video",
+  "available_fal_models_in_openmontage": {
+    "kling_video": {
+      "model_path": "fal-ai/kling-video/v1.5/pro/image-to-video",
+      "tier": "cinematic_highest_fluidity",
+      "supports_image_reference": true,
+      "description": "Kling AI 1.5 Pro image-to-video / text-to-video with camera direction"
+    },
+    "minimax_fal_video": {
+      "model_path": "fal-ai/minimax/hailuo-03/image-to-video",
+      "tier": "2k_multimodal_reference",
+      "supports_image_reference": true,
+      "description": "MiniMax Hailuo-03 high visual fidelity reference video"
+    },
+    "veo_video": {
+      "model_path": "fal-ai/veo2/image-to-video",
+      "tier": "cinematic_documentary",
+      "supports_image_reference": true,
+      "description": "Google Veo 2 cinematic video generator"
+    },
+    "seedance_video": {
+      "model_path": "fal-ai/seedance-video",
+      "tier": "dynamic_action",
+      "supports_image_reference": true,
+      "description": "ByteDance Seedance 2.0/2.5"
+    },
+    "gemini_omni_fal": {
+      "model_path": "fal-ai/gemini-omni",
+      "tier": "editorial_multimodal",
+      "supports_image_reference": true,
+      "description": "Gemini Omni Flash video generator"
+    }
+  },
+  "provider": "openmontage",
+  "job_id": null,
+  "duration": 5.0,
+  "resolution": "1080x1920 (9:16)",
+  "generation_parameters": {
+    "prompt": "SUBJECT: Exhausted 32-year-old retail options trader sitting alone in deep psychological concentration, eyes reflecting shifting financial data, intense focused expression without melodrama\nENVIRONMENT: Dimly lit city apartment trading room at 2:17 AM, rain-streaked high-rise window in background with distant nocturnal city skyline bokeh\nTIME: 2:17 AM dead of night\nLIGHTING: Low-key chiaroscuro with cold 6500K monitor luminescence sculpting facial profile contrasted against subtle 2700K warm incandescent practical desk lamp\nMATERIAL: Authentic tactile skin texture with natural stubble, matte cotton crewneck, aged archival desk paper, print-grain textures embedded on desk surfaces\nCAMERA: Slow deliberate cinematic dolly push-in toward the trader profile from a three-quarters rear-side perspective\nLENS FEEL: 35mm documentary anamorphic prime lens, shallow depth of field (f/1.8), organic chromatic subtlety\nDEPTH: Three distinct spatial planes: out-of-focus monitor edge and paper fragments in near foreground, trader in razor-sharp midground, deep dark room with soft urban window bokeh in background\nFOREGROUND: Edge of an illuminated terminal screen and scattered printed market sheets passing softly out of focus near lens\nMIDGROUND: Trader profile illuminated by terminal glow, hand hovering near analog watch and desk surface\nBACKGROUND: Deep shadowed studio apartment room with second distant monitor glow and dark rainy city window\nMOTION: Subtle organic breathing and micro-eyetracking, slow smooth camera translation pushing past foreground clutter\nATMOSPHERE: Heavy tension, nocturnal isolation, atmospheric haze catching monitor beam, serious investigative journalism tone\nEDITORIAL STYLE: High-tension Fincher neo-noir meets Vox investigative journalism; tactile, grounded, zero sci-fi glossy plastic\nCOLOR: Deep obsidian shadows, cold monitor slate, accented by single strategic warm tungsten amber and subtle archival tan tones (#C9BB9C)\nTRANSITION INTENT: Camera pushes through rising tension, accelerating slightly at second 4.8 before a hard cut to black silence",
+    "negative_prompt": "glossy CGI, plastic humans, wax faces, deformed hands, extra fingers, duplicate people, floating objects, impossible physics, cyberpunk, neon, futuristic HUD, crypto aesthetic, generic corporate stock footage, generic office scenes, cheesy acting, smiling businessman, fake charts, fake UI, random text, gibberish text, invented logos, watermark, excessive lens flare, oversaturated colors, cartoon style, cheap motion graphics, slideshow appearance, flat 2D animation",
+    "duration": "5",
+    "aspect_ratio": "9:16"
+  },
+  "reference_image": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\assets\\style_reference\\company_art_direction.png",
+  "reference_image_used": true,
+  "ai_video_generated": false,
+  "output_path": null,
+  "openmontage_installed": true,
+  "openmontage_version": "08e2151",
+  "status": "BLOCKED_FAL_ACCOUNT_LOCKED",
+  "error_detail": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.",
+  "lock_reason": "Exhausted balance. Top up your balance at fal.ai/dashboard/billing",
+  "timestamp": "2026-09-19T19:00:09.296448+00:00"
+}

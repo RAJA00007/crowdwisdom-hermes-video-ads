@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "dataset_title": "CrowdWisdomTrading Verified Proprietary Data Summary",
+    "generated_at": "2026-09-19T17:01:04.341382+00:00",
+    "total_source_files": 3,
+    "source_files": [
+      "crowdwisdom_alpha_signals.txt",
+      "crowdwisdom_prediction_benchmark.json",
+      "crowdwisdom_sentiment_metrics.csv"
+    ]
+  },
+  "factual_data": {
+    "source_files_ingested": [
+      "crowdwisdom_alpha_signals.txt",
+      "crowdwisdom_prediction_benchmark.json",
+      "crowdwisdom_sentiment_metrics.csv"
+    ],
+    "total_trader_inputs_indexed": 1482930,
+    "tracked_tickers_count": 428,
+    "sentiment_shift_lead_time_hours": 14.6,
+    "raw_datasets_preserved": [
+      {
+        "filename": "crowdwisdom_alpha_signals.txt",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_alpha_signals.txt",
+        "file_type": "txt",
+        "record_count": 18,
+        "fields": [
+          "text_content",
+          "line_count"
+        ],
+        "date_time_info": null,
+        "units": {
+          "text": "raw_strings"
+        }
+      },
+      {
+        "filename": "crowdwisdom_prediction_benchmark.json",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_prediction_benchmark.json",
+        "file_type": "json",
+        "record_count": 1,
+        "fields": [
+          "dataset_name",
+          "data_version",
+          "institution",
+          "summary_metrics",
+          "asset_classes_covered",
+          "sentiment_alpha_factors",
+          "provenance"
+        ],
+        "date_time_info": "2026.Q3",
+        "units": {
+          "accuracy": "percentage (%)",
+          "lead_time": "hours",
+          "counts": "integer"
+        }
+      },
+      {
+        "filename": "crowdwisdom_sentiment_metrics.csv",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_sentiment_metrics.csv",
+        "file_type": "csv",
+        "record_count": 8,
+        "fields": [
+          "date",
+          "ticker",
+          "crowd_sentiment_score",
+          "consensus_direction",
+          "actual_move_pct",
+          "crowd_accuracy_flag",
+          "noise_trader_panic_index",
+          "lead_time_hours"
+        ],
+        "date_time_info": "2026-08-20 to 2026-09-14",
+        "units": {
+          "crowd_sentiment_score": "0-100 scale",
+          "actual_move_pct": "percentage (%)",
+          "crowd_accuracy_flag": "binary (1=correct, 0=incorrect)",
+          "lead_time_hours": "hours"
+        }
+      }
+    ]
+  },
+  "raw_factual_data": {
+    "source_files_ingested": [
+      "crowdwisdom_alpha_signals.txt",
+      "crowdwisdom_prediction_benchmark.json",
+      "crowdwisdom_sentiment_metrics.csv"
+    ],
+    "total_trader_inputs_indexed": 1482930,
+    "tracked_tickers_count": 428,
+    "sentiment_shift_lead_time_hours": 14.6,
+    "raw_datasets_preserved": [
+      {
+        "filename": "crowdwisdom_alpha_signals.txt",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_alpha_signals.txt",
+        "file_type": "txt",
+        "record_count": 18,
+        "fields": [
+          "text_content",
+          "line_count"
+        ],
+        "date_time_info": null,
+        "units": {
+          "text": "raw_strings"
+        }
+      },
+      {
+        "filename": "crowdwisdom_prediction_benchmark.json",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_prediction_benchmark.json",
+        "file_type": "json",
+        "record_count": 1,
+        "fields": [
+          "dataset_name",
+          "data_version",
+          "institution",
+          "summary_metrics",
+          "asset_classes_covered",
+          "sentiment_alpha_factors",
+          "provenance"
+        ],
+        "date_time_info": "2026.Q3",
+        "units": {
+          "accuracy": "percentage (%)",
+          "lead_time": "hours",
+          "counts": "integer"
+        }
+      },
+      {
+        "filename": "crowdwisdom_sentiment_metrics.csv",
+        "source": "C:\\Users\\Raja\\automated_ad\\crowdwisdom-hermes-video-ads\\data\\proprietary\\raw\\crowdwisdom_sentiment_metrics.csv",
+        "file_type": "csv",
+        "record_count": 8,
+        "fields": [
+          "date",
+          "ticker",
+          "crowd_sentiment_score",
+          "consensus_direction",
+          "actual_move_pct",
+          "crowd_accuracy_flag",
+          "noise_trader_panic_index",
+          "lead_time_hours"
+        ],
+        "date_time_info": "2026-08-20 to 2026-09-14",
+        "units": {
+          "crowd_sentiment_score": "0-100 scale",
+          "actual_move_pct": "percentage (%)",
+          "crowd_accuracy_flag": "binary (1=correct, 0=incorrect)",
+          "lead_time_hours": "hours"
+        }
+      }
+    ]
+  },
+  "calculated_metrics": {
+    "crowd_consensus_directional_accuracy_pct": 68.4,
+    "traditional_retail_accuracy_benchmark_pct": 41.2,
+    "single_analyst_consensus_benchmark_pct": 52.8,
+    "accuracy_advantage_vs_traditional_retail_pct": 27.2,
+    "accuracy_advantage_vs_analyst_pct": 15.6,
+    "false_breakout_detection_rate_pct": 74.2,
+    "retail_panic_divergence_indicator_accuracy_pct": 79.1,
+    "sample_recent_accuracy_rate_pct": 100.0,
+    "sample_mean_lead_time_hours": 15.0
+  },
+  "calculated_statistics": {
+    "crowd_consensus_directional_accuracy_pct": 68.4,
+    "traditional_retail_accuracy_benchmark_pct": 41.2,
+    "single_analyst_consensus_benchmark_pct": 52.8,
+    "accuracy_advantage_vs_traditional_retail_pct": 27.2,
+    "accuracy_advantage_vs_analyst_pct": 15.6,
+    "false_breakout_detection_rate_pct": 74.2,
+    "retail_panic_divergence_indicator_accuracy_pct": 79.1,
+    "sample_recent_accuracy_rate_pct": 100.0,
+    "sample_mean_lead_time_hours": 15.0
+  },
+  "verified_proprietary_signals": [
+    {
+      "signal_name": "Crowd Conviction Score (CCS)",
+      "utility": "Weights peer consensus by historical accuracy rather than social media volume",
+      "lead_window": "6h - 24h prior to volume breakout",
+      "data_source": "proprietary_data_summary.json",
+      "data_field": "calculated_statistics.crowd_consensus_directional_accuracy_pct",
+      "data_value": "68.4%"
+    },
+    {
+      "signal_name": "Retail Panic Inversion Index (RPII)",
+      "utility": "Detects peak emotional retail selling to anticipate mean-reversion bounces",
+      "lead_window": "Real-time divergence alert during sharp sell-offs",
+      "data_source": "proprietary_data_summary.json",
+      "data_field": "calculated_statistics.retail_panic_divergence_indicator_accuracy_pct",
+      "data_value": "79.1%"
+    },
+    {
+      "signal_name": "Lead-Time Sentiment Wave",
+      "utility": "Provides early warning consensus shifts ahead of major market volatility",
+      "lead_window": "Average 14.6 hours early warning",
+      "data_source": "proprietary_data_summary.json",
+      "data_field": "raw_factual_data.sentiment_shift_lead_time_hours",
+      "data_value": "14.6 hours"
+    }
+  ],
+  "llm_interpretations": {
+    "disclaimer": "The following interpretations represent qualitative narrative framings and strategic angles, not factual measurements.",
+    "positioning_angle": "Contrasts collective intelligence against speculative retail noise. Positions CrowdWisdomTrading as the objective sentiment compass.",
+    "core_narrative_claim": "Over 1.48M aggregated trader data points reveal that weighted crowd consensus delivers a +27.2% directional edge over retail benchmarks without relying on lagging indicators.",
+    "target_emotional_shift": "From isolated anxiety and second-guessing to calm mathematical execution."
+  }
+}

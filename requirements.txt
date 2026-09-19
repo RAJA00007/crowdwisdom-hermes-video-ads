@@ -1,0 +1,25 @@
+# ==============================================================================
+# CrowdWisdomTrading Video Ads Agent - Python Dependencies (Python 3.10+)
+# ==============================================================================
+
+# --- Core Framework & Environment ---
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# --- Hermes LLM & Multi-Agent APIs ---
+openai>=1.30.0
+requests>=2.31.0
+tavily-python>=0.3.3
+exa-py>=1.0.7
+apify-client>=1.6.4
+rich>=13.7.1
+
+# --- 2.5D Vox Motion Graphics Engine & Video Production ---
+pillow>=10.0.0
+numpy>=1.24.0
+imageio-ffmpeg>=0.4.9
+
+# --- Broadcast Voiceover & Neural TTS ---
+edge-tts>=6.1.0
+pyttsx3>=2.90
